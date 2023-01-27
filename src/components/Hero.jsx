@@ -7,7 +7,7 @@ const Hero = () => {
             <Carousel>
                 <Carousel.Item interval={1000}>
                     <img
-                        className="d-block w-100"
+                        className="heropic d-block w-100"
                         src="images/image1.jpg"
                         alt="First slide"
                     />
@@ -18,7 +18,7 @@ const Hero = () => {
                 </Carousel.Item>
                 <Carousel.Item interval={500}>
                     <img
-                        className="d-block w-100"
+                        className="heropic d-block w-100"
                         src="images/image2.jpg"
                         alt="Second slide"
                     />
@@ -29,7 +29,7 @@ const Hero = () => {
                 </Carousel.Item>
                 <Carousel.Item>
                     <img
-                        className="d-block w-100"
+                        className="heropic d-block w-100"
                         src="images/image3.jpg"
                         alt="Third slide"
                     />
@@ -40,7 +40,7 @@ const Hero = () => {
                 </Carousel.Item>
                 <Carousel.Item>
                     <img
-                        className="d-block w-100"
+                        className="heropic d-block w-100"
                         src="images/image4.jpg"
                         alt="Third slide"
                     />
@@ -51,7 +51,7 @@ const Hero = () => {
                 </Carousel.Item>
                 <Carousel.Item>
                     <img
-                        className="d-block w-100"
+                        className="heropic d-block w-100"
                         src="images/image5.jpg"
                         alt="Third slide"
                     />
