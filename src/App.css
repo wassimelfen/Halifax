@@ -1,3 +1,173 @@
+/*HERO*/
 .heropic{
   height:400px;
 }
+
+/*FOOTER*/
+.footersection{
+  margin-top: 5%;
+  display:block;
+  
+}
+.footerstyle{
+  justify-content: center;
+  align-items: center;
+}
+.footertext{
+  text-align: center;
+  font-size: 20px;
+  font-weight: 500;
+  font-family:serif;
+}
+
+
+/*ContactUs*/
+.contactcontainer{
+
+  margin-top: 5%;
+  display:block;
+}
+
+
+/*social media*/
+.socialstyle{
+  display: flex;
+  margin:auto;
+  align-items: center;
+  justify-content: center;
+}
+
+.socialicon{
+  color:darkgray;
+  transition:color 0.2s;
+  font-size: 50px;
+  margin-top: 20px 0;
+}
+
+.socialicon:hover{
+  color:grey;
+}
+
+.mapstyle{
+  margin:auto;
+  align-items: center;
+  height:480px;
+  width: 400px;
+  display: block;
+}
+
+/*Contactform*/
+
+#title-Tag-Line {
+  font-size: 20px;
+}
+.form {
+  display: block;
+  margin: auto;
+  background: #fff;
+  border-radius: 5px;
+  max-width: 350px;
+  max-height: 480px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  left: 0;
+  right: 0;
+  border-top: 5px solid #13678A;
+  border-bottom: 5px solid #13678A;
+}
+::-webkit-input-placeholder {
+  font-size: 1.3em;
+}
+
+.title{
+  color: #13678A;
+  display: block;
+  font-family: sans-serif;
+  margin: 5px auto 5px;
+  width: 300px;
+}
+
+.pageTitle{
+  font-size: 2em;
+  font-weight: bold;
+  margin-top: 0%;
+  margin-bottom: 0%;
+}
+
+
+.name {
+  margin-top:0%;
+  background-color: #ebebeb;
+  color: white;
+  height: 2em;
+}
+.name:hover {
+  border-bottom: 5px solid #13678A;
+  
+  transition: ease 0.5s;
+}
+
+.email {
+  background-color: #ebebeb;
+  height: 2em;
+}
+
+.email:hover {
+  border-bottom: 5px solid #13678A;
+ 
+  transition: ease 0.5s;
+}
+
+.message {
+  background-color: #ebebeb;
+  overflow: hidden;
+  height: 10rem;
+}
+
+.message:hover {
+  border-bottom: 5px solid #13678A;
+  height: 12em;
+  width: 380px;
+  transition: ease 0.5s;
+}
+
+.formEntry {
+  display: block;
+  margin: 30px auto;
+  min-width: 300px;
+  padding: 10px;
+  border-radius: 2px;
+  border: none;
+  transition: all 0.5s ease 0s;
+}
+
+.submit {
+  border-radius: 20%;
+  display: block;
+  margin: 30px auto;
+  min-width: 100px;
+  padding: 10px;
+  border-radius: 2px;
+  border: none;
+  transition: all 0.5s ease 0s;
+  margin-top: 0%;
+  width: 100px;
+  color: white;
+  background-color: #13678A;
+  font-size: 20px;
+}
+
+.submit:hover {
+ 
+  box-shadow: 15px 15px 15px 5px rgba(78, 72, 77, 0.219);
+  transform: translateY(-3px);
+  width: 120px;
+  border-top: 5px solid #DAFDBA;
+  
+}
+
+
+
+
