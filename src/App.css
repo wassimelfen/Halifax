@@ -67,9 +67,17 @@
 /*HERO*/
 .heropic{
 
-  height:400px;
+  height:600px;
 }
 
+.carouselCaption{
+background-color: #2424249f;
+border-radius: 15px;
+}
+
+.carouselCaption p {
+  font-size: larger;
+}
 /*FOOTER*/
 .footersection{
   margin-top: 5%;
