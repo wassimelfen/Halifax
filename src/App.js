@@ -1,18 +1,19 @@
 import './App.css';
-import Navbar from './components/Navbar';
-import Hero from './components/Hero';
-import ContactUs from './components/ContactUs';
-import Footer from './components/Footer';
-import SocialMedia from './components/SocialMedia';
+
+import {Route,Routes} from 'react-router-dom';
+
+import Formations from './components/Formations';
+import Langues from './components/Langues';
+import Home from './components/Home';
 
 function App() {
   return (
     <div>
-<Navbar/>
-<Hero/>
-<SocialMedia/>
-<ContactUs/>
-<Footer/>
+<Routes>
+<Route path='/' element={<Home />}></Route>
+<Route path='/formations' element={<Formations />}></Route>
+<Route path='/langues' element={<Langues/>}></Route>
+</Routes>
     </div>
   );
 }

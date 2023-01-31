@@ -1,98 +1,34 @@
 import React,{useState} from 'react'
-import axios from 'axios';
+import { useRef } from 'react';
+import emailjs from '@emailjs/browser';
 
 const ContactForm = () => {
-  const [formData, setFormData] = useState({
-    name: '',
-    email: '',
-    message: '',
-  });
+  const form = useRef();
 
-  const handleChange = (event) => {
-    setFormData({ ...formData, [event.target.name]: event.target.value });
-  };
+  const sendEmail = (e) => {
+    e.preventDefault();
 
-  const handleSubmit = async (event) => {
-    event.preventDefault();
-    await sendEmail(formData);
-    setFormData({ name: '', email: '', message: '' });
-  };
-
-  const sendEmail = async (formData) => {
-    try {
-      const response = await axios.post('http://localhost:3000/', {
-        personalizations: [
-          {
-            to: [
-              {
-                email: 'salma.baatout88@gmail.com',
-              },
-            ],
-            subject: `New message from ${formData.name}`,
-          },
-        ],
-        from: {
-          email: 'sender-email@example.com',
-        },
-        content: [
-          {
-            type: 'text/plain',
-            value: formData.message,
-          },
-        ],
-      },
-      {
-        headers: {
-          Authorization: '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',
-          'Content-Type': 'application/json',
-        },
+    emailjs.sendForm('service_sjemiao', 'template_zuyzk1j', form.current, 'YHCHURIn8oT8LE85z')
+      .then((result) => {
+          console.log(result.text);
+         
+          e.target.reset();
+      }, (error) => {
+          console.log(error.text);
       });
-
-      console.log(response.status);
-    } catch (error) {
-      console.error(error);
-    }
   };
 
+     
   return (
-    <form onSubmit={handleSubmit}>
-      <input
-        type="text"
-        name="name"
-        placeholder="Your name"
-        value={formData.name}
-        onChange={handleChange}
-      />
-      <input
-        type="email"
-        name="email"
-        placeholder="Your email"
-        value={formData.email}
-        onChange={handleChange}
-      />
-      <textarea
-        name="message"
-        placeholder="Your message"
-        value={formData.message}
-        onChange={handleChange}
-      />
-      <button type="submit">Send</button>
-    </form>
-
-
-
-
-
-
-  //<div className="wrapper">
-    //<form className="form">
-      //<div className="pageTitle title">Contactez nous </div>
-     // <input type="text" className="name formEntry" placeholder="Name" />
-      //<input type="text" className="email formEntry" placeholder="Email"/>
-      //<textarea className="message formEntry" placeholder="Message"></textarea>
-      //<button className="submit " onClick="thanks()">Send</button>
-   // </form>
- // </div>
+    <form className='form' ref={form} onSubmit={sendEmail}>
+    <label className='label'>Name</label>
+    <input className='input' type="text" name="user_name" />
+    <label className='label'>Email</label>
+    <input className='input' type="email" name="user_email" />
+    <label className='label'>Message</label>
+    <textarea className='textarea' name="message" />
+    <input className='sendbutton' type="submit" value="Send" />
+  </form>
 
 
   )
