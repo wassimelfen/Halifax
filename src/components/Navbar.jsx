@@ -6,16 +6,20 @@ import { Link } from "react-router-dom";
 
 function BasicExample() {
   return (
-    <Navbar bg="light" expand="lg">
+    <Navbar sticky="top" bg="dark" variant="dark" expand="lg">
       <Container>
         <Navbar.Brand href="#home">Halifax</Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="me-auto">
             <Nav.Link href="#Accueil">Accueil</Nav.Link>
-            <Link to="/formations"> <Nav.Link href="#Formations">Formations</Nav.Link></Link>
-            <Link to="/langues"> <Nav.Link href="#langues">Langues</Nav.Link></Link>
-            <Nav.Link href="#gallerie">Gallerie</Nav.Link>
+            <Link to="/formations">
+              {/* <Nav.Link href="#Formations">Formations</Nav.Link> */}
+            </Link>
+            <Link to="/langues">
+              {/* <Nav.Link href="#langues">Langues</Nav.Link> */}
+            </Link>
+            <Nav.Link href="#galerie">Galerie</Nav.Link>
             <Nav.Link href="#contact">Contactez Nous</Nav.Link>
             <NavDropdown title="Dropdown" id="basic-nav-dropdown">
               <NavDropdown.Item href="#action/3.1">Action</NavDropdown.Item>
