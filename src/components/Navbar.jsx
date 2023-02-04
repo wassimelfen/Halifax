@@ -19,7 +19,7 @@ function BasicExample() {
             <Link to="/langues">
               {/* <Nav.Link href="#langues">Langues</Nav.Link> */}
             </Link>
-            <Nav.Link href="#gallerie">Gallerie</Nav.Link>
+            <Nav.Link href="#galerie">Galerie</Nav.Link>
             <Nav.Link href="#contact">Contactez Nous</Nav.Link>
             <NavDropdown title="Dropdown" id="basic-nav-dropdown">
               <NavDropdown.Item href="#action/3.1">Action</NavDropdown.Item>

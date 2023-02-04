@@ -4,7 +4,7 @@ import Hero from  './Hero';
 import SocialMedia from './SocialMedia';
 import ContactUs from './ContactUs';
 import Footer from './Footer';
-import Gallerie from './Gallerie';
+import Galerie from './Galerie';
 
 const Home = () => {
   return (
@@ -14,8 +14,8 @@ const Home = () => {
 <SocialMedia/>
 
 
-<div id="gallerie">
-        <Gallerie />
+<div id="galerie">
+        <Galerie />
       </div>
       <div id="contact">
       <ContactUs/>
