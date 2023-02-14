@@ -1,7 +1,7 @@
 import React from 'react'
 import ContactForm from './ContactForm'
 import MapAdress from './MapAdress'
-import SocialMedia from './SocialMedia'
+
 
 
 const ContactUs = () => {
