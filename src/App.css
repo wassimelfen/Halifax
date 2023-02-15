@@ -85,6 +85,7 @@
   overflow-x: hidden !important;
 
   }
+ 
 }
 
   .input {
@@ -120,9 +121,7 @@
   }
 .sendbutton{
   margin-top: 10px;
- 
-	
-	background-color:#8A1538;
+ 	background-color:#8A1538;
 	border-radius:6px;
 	border:1px solid #8A1538;
 	display:inline-block;
@@ -236,13 +235,11 @@ border-radius: 15px;
 
 .scrolling-title{
 background-color: white;
-
-
 }
 .scrolling-title h1 {
   color: #292929;
  font-family: 'Darby Sans Web';
-  display: inline-block;
+ display: inline-block;
   width: 100%;
   white-space: nowrap;
   animation: scroll-title 35s linear infinite;
