@@ -1,11 +1,11 @@
 import React from "react";
-import { langues } from "./DataLangue";
+import { langue } from "./DataAllLangue";
 import CompleteFormation from "./CompleteFormation";
 
 const AllLangue = () => {
   return (
     <div>
-      {langues.map((item, index) => (
+      {langue.map((item, index) => (
         <CompleteFormation key={index} data={item} />
       ))}
     </div>
