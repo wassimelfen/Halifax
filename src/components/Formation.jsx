@@ -3,12 +3,13 @@ import Slider from "react-slick";
 import { formation } from "./DataFormation";
 import { Link } from "react-router-dom";
 
+
 function SamplePrevArrow(props) {
   const { className, style, onClick } = props;
   return (
     <div
       className={className}
-      style={{ ...style, display: "block", background: "gray" }}
+      style={{ ...style,  display: "block", background: "white" }}
       onClick={onClick}
     />
   );
@@ -19,7 +20,7 @@ function SampleNextArrow(props) {
   return (
     <div
       className={className}
-      style={{ ...style, display: "block", background: "gray" }}
+      style={{ ...style, display: "block", background: "white" }}
       onClick={onClick}
     />
   );
@@ -63,7 +64,11 @@ const Langues = () => {
     ],
   };
   return (
-    <div className="Langue">
+    <div className="Formation">
+      <div>
+        <h1 className="langueTitle">Nos Formations</h1>
+      </div>
+      <div className="line"></div>
       <Slider {...settings}>
         {formation.map((item, index) => (
           <div key={index} className="langCard">
@@ -71,9 +76,7 @@ const Langues = () => {
               <img src={item.image} className="langpic" alt={item.title} />
               <h3>{item.title}</h3>
             </div>
-            <div className="langCardBottom">
-              <p>{item.description}</p>
-            </div>
+            
           </div>
         ))}
       </Slider>
@@ -86,3 +89,7 @@ const Langues = () => {
 };
 
 export default Langues;
+
+//<div className="langCardBottom">
+  //            <p>{item.description}</p>
+     //       </div>

@@ -1,25 +1,158 @@
+/*
+
+@media (min-width: 768px) {
+  .scrolling-title {
+    background-color: white;
+  }
+  .scrolling-title h1 {
+    color: #292929;
+    font-family: "Darby Sans Web";
+    display: inline-block;
+    width: 100%;
+    white-space: nowrap;
+    animation: scroll-title 35s linear infinite;
+  }
+  .reserveTitle span {
+    color: #6a112b;
+  }
+
+  @keyframes scroll-title {
+    from {
+      transform: translateX(90%);
+    }
+    to {
+      transform: translateX(-100%);
+    }
+  }
+
+  .reserveTitle {
+    color: #212529;
+    text-align: right;
+  }
+}
+
+@media (max-width: 768px) {
+  .scrolling-title h1 {
+    white-space: normal;
+    display: inline-block;
+    overflow-x: hidden;
+    margin: 5px;
+    margin-top: 20px !important;
+    margin-left: 25px !important;
+  }
+  .reserveTitle span {
+    color: #6a112b;
+  }
+}
+*/
+.scrolling-title {
+  overflow: hidden;
+  display: flex;
+  flex-wrap: nowrap;
+  white-space: nowrap;
+  background-color: white;
+}
+.scrolling-title h1 {
+  color: #292929;
+  font-family: "Darby Sans Web";
+}
+
+.reserveTitle span {
+  color: #6a112b;
+}
+
+.reserveTitle {
+  /* animation properties */
+  -moz-transform: translateX(100%);
+  -webkit-transform: translateX(100%);
+  transform: translateX(100%);
+  
+  -moz-animation: my-animation 30s linear infinite;
+  -webkit-animation: my-animation 30s linear infinite;
+  animation: my-animation 30s linear infinite;
+}
+
+/* for Firefox 
+@-moz-keyframes my-animation {
+  from { -moz-transform: translateX(100%); }
+  to { -moz-transform: translateX(-100%); }
+}*/
+
+/* for Chrome */
+@-webkit-keyframes my-animation {
+  from { -webkit-transform: translateX(100%); }
+  to { -webkit-transform: translateX(-100%); }
+}
+
+@keyframes my-animation {
+  from {
+    -moz-transform: translateX(100%);
+    -webkit-transform: translateX(100%);
+    transform: translateX(100%);
+  }
+  to {
+    -moz-transform: translateX(-100%);
+    -webkit-transform: translateX(-100%);
+    transform: translateX(-100%);
+  }
+}
+
+
 /*FORMATIONS*/
+
+
+.slick-slide > div {
+  margin: 0 10px;
+}
+.slick-list {
+  margin: 0 -10px;
+}
+.slick-prev::before, .slick-next::before {
+  color: gray !important;
+  
+}
+.Formation{
+ 
+  width: 85%;
+  margin-left: 100px !important;
+  margin-top: 50px;
+}
 .cards {
   padding: 10px;
   border-radius: 0%;
   align-items: center !important;
   justify-content: center !important;
-  margin-left: 50px;
+
 }
-.langpic {
-  width: 300px;
-  height: 300px;
-}
+
 .langCard {
   overflow: hidden;
   border: 1px solid grey;
-  height: 400px;
-  width: 350px !important;
+  height: 300px;
+  width: 300px !important;
+  padding: 10px;
+  
+  /*cursor: pointer;*/
+
 }
-/*LANGUES*/
+.langCardTop > h3{
+  font-family: "Darby Sans Web" !important;
+  color: #292929 !important;
+  font-size: 1.4em ;
+  font-weight: 600 ;
+}
+
+.langCardTop > img{
+  width: 100%;
+  height:200px;
+  object-fit: cover;
+  margin-bottom: 10px;
+}
+
 .Langue {
   margin-top: 5%;
   margin-left: 50px;
+  
 }
 .langueTitle {
   font-size: 2.8em !important;
@@ -45,6 +178,7 @@
   font-size: 15px;
   padding: 6px 13px;
   text-decoration: none;
+  align-items: right;
 }
 .btnSeeAll:hover {
   background-color: white;
@@ -222,47 +356,4 @@
   border-top: 5px solid #dafdba;
 }
 
-@media (min-width: 768px) {
-  .scrolling-title {
-    background-color: white;
-  }
-  .scrolling-title h1 {
-    color: #292929;
-    font-family: "Darby Sans Web";
-    display: inline-block;
-    width: 100%;
-    white-space: nowrap;
-    animation: scroll-title 35s linear infinite;
-  }
-  .reserveTitle span {
-    color: #6a112b;
-  }
 
-  @keyframes scroll-title {
-    from {
-      transform: translateX(90%);
-    }
-    to {
-      transform: translateX(-100%);
-    }
-  }
-
-  .reserveTitle {
-    color: #212529;
-    text-align: right;
-  }
-}
-
-@media (max-width: 768px) {
-  .scrolling-title h1 {
-    white-space: normal;
-    display: inline-block;
-    overflow-x: hidden;
-    margin: 5px;
-    margin-top: 20px !important;
-    margin-left: 25px !important;
-  }
-  .reserveTitle span {
-    color: #6a112b;
-  }
-}
