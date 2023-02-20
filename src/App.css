@@ -66,7 +66,7 @@
   -moz-transform: translateX(100%);
   -webkit-transform: translateX(100%);
   transform: translateX(100%);
-  
+
   -moz-animation: my-animation 30s linear infinite;
   -webkit-animation: my-animation 30s linear infinite;
   animation: my-animation 30s linear infinite;
@@ -80,8 +80,12 @@
 
 /* for Chrome */
 @-webkit-keyframes my-animation {
-  from { -webkit-transform: translateX(100%); }
-  to { -webkit-transform: translateX(-100%); }
+  from {
+    -webkit-transform: translateX(100%);
+  }
+  to {
+    -webkit-transform: translateX(-100%);
+  }
 }
 
 @keyframes my-animation {
@@ -97,9 +101,7 @@
   }
 }
 
-
 /*FORMATIONS*/
-
 
 .slick-slide > div {
   margin: 0 10px;
@@ -107,52 +109,34 @@
 .slick-list {
   margin: 0 -10px;
 }
-.slick-prev::before, .slick-next::before {
-  color: gray !important;
-  
-}
-.Formation{
- 
-  width: 85%;
-  margin-left: 100px !important;
-  margin-top: 50px;
-}
-.cards {
-  padding: 10px;
-  border-radius: 0%;
-  align-items: center !important;
-  justify-content: center !important;
-
+.slick-prev::before,
+.slick-next::before {
+  /* color: gray !important; */
 }
 
-.langCard {
-  overflow: hidden;
-  border: 1px solid grey;
-  height: 300px;
-  width: 300px !important;
-  padding: 10px;
-  
-  /*cursor: pointer;*/
-
-}
-.langCardTop > h3{
+.langCardTop > h3 {
   font-family: "Darby Sans Web" !important;
   color: #292929 !important;
-  font-size: 1.4em ;
-  font-weight: 600 ;
+  font-size: 1.4em;
+  font-weight: 600;
 }
 
-.langCardTop > img{
+.langCardTop > img {
   width: 100%;
-  height:200px;
+  height: 200px;
   object-fit: cover;
   margin-bottom: 10px;
 }
 
 .Langue {
   margin-top: 5%;
-  margin-left: 50px;
-  
+  margin-left: 120px;
+  width: 90%;
+}
+.Formation {
+  width: 90%;
+  margin-left: 120px !important;
+  margin-top: 50px;
 }
 .langueTitle {
   font-size: 2.8em !important;
@@ -175,14 +159,18 @@
   cursor: pointer;
   color: #ffffff;
   font-family: Arial;
-  font-size: 15px;
-  padding: 6px 13px;
+  font-size: 17px;
+  padding: 8px 13px;
   text-decoration: none;
   align-items: right;
 }
 .btnSeeAll:hover {
   background-color: white;
   color: #932242;
+}
+
+.halifaxWord {
+  color: #d83264 !important;
 }
 
 /*form*/
@@ -202,6 +190,30 @@
   padding-top: 15px;
   padding-bottom: 15px;
 }
+.langCard {
+  overflow: hidden;
+  border: 1px solid grey;
+  border-radius: 10px;
+  padding: 10px;
+}
+@media (min-width: 768px) {
+  .cards {
+    padding: 10px;
+    width: "90%" !important;
+    border-radius: 0%;
+    align-items: center !important;
+    justify-content: center !important;
+  }
+  .langCard {
+    overflow: hidden;
+    border: 1px solid grey;
+    border-radius: 10px;
+    width: 350px !important;
+    /* margin-right: 20px !important; */
+    height: 400px !important;
+    padding: 10px;
+  }
+}
 
 @media (max-width: 768px) {
   .mapstyle {
@@ -217,7 +229,44 @@
   body {
     overflow-x: hidden !important;
   }
- 
+  .langueContainer {
+    width: 100% !important;
+    text-align: center;
+    justify-content: center;
+  }
+
+  .Formation {
+    width: 85%;
+    margin-left: 28px !important;
+    margin-top: 50px;
+  }
+  .Langue {
+    margin-top: 5%;
+    margin-left: 28px;
+    width: 85%;
+    /* background-color: #212529; */
+  }
+  .cards {
+    padding: 10px;
+    width: "100%";
+    height: "23rem";
+  }
+  .langCard {
+    overflow: hidden;
+    border: 1px solid grey;
+    border-radius: 10px;
+    padding: 10px;
+    height: 350px !important;
+  }
+  .btnSeeAll {
+    margin-top: 7%;
+    margin-left: 15%;
+  }
+}
+.langueContainer {
+  width: 95%;
+  text-align: center;
+  justify-content: center;
 }
 
 .input {
@@ -356,4 +405,22 @@
   border-top: 5px solid #dafdba;
 }
 
+.checkOneFormation {
+  margin-top: 10px;
+  background-color: #fff;
+  border-radius: 6px;
+  border: 1px solid #8a1538;
+  display: inline-block;
+  cursor: pointer;
+  color: #8a1538;
+  font-family: Arial;
+  font-size: 15px;
+  font-weight: bold;
+  padding: 6px 24px;
+  text-decoration: none;
+}
 
+.checkOneFormation:hover {
+  background-color: #8a1538;
+  color: #fff;
+}
