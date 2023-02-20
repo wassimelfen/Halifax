@@ -63,20 +63,25 @@ const Langues = () => {
     ],
   };
   return (
-    <div className="Langue">
-      <Slider {...settings}>
-        {formation.map((item, index) => (
-          <div key={index} className="langCard">
-            <div className="langCardTop">
-              <img src={item.image} className="langpic" alt={item.title} />
-              <h3>{item.title}</h3>
+    <div className="Formation">
+      <div>
+        <h1 className="langueTitle">Nos Formations</h1>
+      </div>
+      <div className="line"></div>
+      <div className="langueContainer">
+        <Slider {...settings}>
+          {formation.map((item, index) => (
+            <div key={index} className="langCard">
+              <div className="cards">
+                <div className="langCardTop">
+                  <img src={item.image} className="langpic" alt={item.title} />
+                  <h3>{item.title}</h3>
+                </div>
+              </div>
             </div>
-            <div className="langCardBottom">
-              <p>{item.description}</p>
-            </div>
-          </div>
-        ))}
-      </Slider>
+          ))}
+        </Slider>
+      </div>
       <br />
       <Link to="/AllFormation">
         <button className="btnSeeAll">Toutes nos formations</button>
@@ -86,3 +91,7 @@ const Langues = () => {
 };
 
 export default Langues;
+
+//<div className="langCardBottom">
+//            <p>{item.description}</p>
+//       </div>

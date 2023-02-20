@@ -5,12 +5,12 @@ import Card from "react-bootstrap/Card";
 const SingleFormation = (props) => {
   return (
     <div>
-      <Card className="cards" style={{ width: "18rem", height: "30rem" }}>
+      <Card className="langCard">
         <Card.Img variant="top" src={props.data.image} />
         <Card.Body>
           <Card.Title>{props.data.title}</Card.Title>
 
-          <Button variant="primary">Go somewhere</Button>
+          <button className="checkOneFormation">Voir Plus</button>
         </Card.Body>
       </Card>
     </div>
