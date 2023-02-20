@@ -33,7 +33,7 @@ const Formations = () => {
     speed: 500,
     slidesToShow: 3,
     slidesToScroll: 1,
-    initialSlide: 0,
+    initialSlide: 1,
     nextArrow: <SampleNextArrow />,
     prevArrow: <SamplePrevArrow />,
     responsive: [
@@ -71,11 +71,13 @@ const Formations = () => {
       </div>
       <div className="line"></div>
 
-      <Slider {...settings}>
-        {langues.map((item, index) => (
-          <SingleFormation key={index} data={item} />
-        ))}
-      </Slider>
+      <div className="langueContainer">
+        <Slider {...settings}>
+          {langues.map((item, index) => (
+            <SingleFormation key={index} data={item} />
+          ))}
+        </Slider>
+      </div>
       <br></br>
       <div>
         <Link to="/AllLangue">
