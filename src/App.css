@@ -1,105 +1,3 @@
-/*
-
-@media (min-width: 768px) {
-  .scrolling-title {
-    background-color: white;
-  }
-  .scrolling-title h1 {
-    color: #292929;
-    font-family: "Darby Sans Web";
-    display: inline-block;
-    width: 100%;
-    white-space: nowrap;
-    animation: scroll-title 35s linear infinite;
-  }
-  .reserveTitle span {
-    color: #6a112b;
-  }
-
-  @keyframes scroll-title {
-    from {
-      transform: translateX(90%);
-    }
-    to {
-      transform: translateX(-100%);
-    }
-  }
-
-  .reserveTitle {
-    color: #212529;
-    text-align: right;
-  }
-}
-
-@media (max-width: 768px) {
-  .scrolling-title h1 {
-    white-space: normal;
-    display: inline-block;
-    overflow-x: hidden;
-    margin: 5px;
-    margin-top: 20px !important;
-    margin-left: 25px !important;
-  }
-  .reserveTitle span {
-    color: #6a112b;
-  }
-}
-*/
-.scrolling-title {
-  overflow: hidden;
-  display: flex;
-  flex-wrap: nowrap;
-  white-space: nowrap;
-  background-color: white;
-}
-.scrolling-title h1 {
-  color: #292929;
-  font-family: "Darby Sans Web";
-}
-
-.reserveTitle span {
-  color: #6a112b;
-}
-
-.reserveTitle {
-  /* animation properties */
-  -moz-transform: translateX(100%);
-  -webkit-transform: translateX(100%);
-  transform: translateX(100%);
-
-  -moz-animation: my-animation 30s linear infinite;
-  -webkit-animation: my-animation 30s linear infinite;
-  animation: my-animation 30s linear infinite;
-}
-
-/* for Firefox 
-@-moz-keyframes my-animation {
-  from { -moz-transform: translateX(100%); }
-  to { -moz-transform: translateX(-100%); }
-}*/
-
-/* for Chrome */
-@-webkit-keyframes my-animation {
-  from {
-    -webkit-transform: translateX(100%);
-  }
-  to {
-    -webkit-transform: translateX(-100%);
-  }
-}
-
-@keyframes my-animation {
-  from {
-    -moz-transform: translateX(100%);
-    -webkit-transform: translateX(100%);
-    transform: translateX(100%);
-  }
-  to {
-    -moz-transform: translateX(-100%);
-    -webkit-transform: translateX(-100%);
-    transform: translateX(-100%);
-  }
-}
 
 /*FORMATIONS*/
 
@@ -170,7 +68,9 @@
 }
 
 .halifaxWord {
-  color: #d83264 !important;
+  color: #932242!important;
+  font-family:"Darby Sans Web" ;
+
 }
 
 /*form*/
@@ -190,6 +90,7 @@
   padding-top: 15px;
   padding-bottom: 15px;
 }
+
 .langCard {
   overflow: hidden;
   border: 1px solid grey;
@@ -209,7 +110,7 @@
     border: 1px solid grey;
     border-radius: 10px;
     width: 350px !important;
-    /* margin-right: 20px !important; */
+   
     height: 400px !important;
     padding: 10px;
   }
@@ -229,6 +130,7 @@
   body {
     overflow-x: hidden !important;
   }
+  
   .langueContainer {
     width: 100% !important;
     text-align: center;
@@ -246,6 +148,7 @@
     width: 85%;
     /* background-color: #212529; */
   }
+  
   .cards {
     padding: 10px;
     width: "100%";
@@ -423,4 +326,132 @@
 .checkOneFormation:hover {
   background-color: #8a1538;
   color: #fff;
+}
+
+/*ALLEMAND*/
+.TitreCertif {
+  margin-top: 50px !important;
+  margin-bottom: 30px;
+  color: #292929;
+  font-family:"Darby Sans Web"; 
+}
+.TitreAllemand{
+  margin-top: 50px !important;
+  margin-bottom: 30px;
+  color:#6a112b;
+  font-family:"Darby Sans Web"; 
+}
+
+.TitreCertif span {
+  color: #6a112b;
+}
+.TestPara{
+  font-family: "Darby Sans Web";
+  font-size: 20px;
+  text-align: justify;
+}
+.card-title{
+  font-family: "Darby Sans Web";
+  font-weight: bold;
+}
+.card-text{
+  font-family: "Darby Sans Web"; 
+  font-size: large;
+}
+.instit{
+  margin-bottom: 50px;
+}
+.boutonTest{
+  
+  display: flex;
+  justify-content: center !important;
+  margin-top: 20px;
+}
+.btnTest{
+  background-color: #8a1538;
+  border-radius: 17px;
+  border: 2px solid #8a1538;
+  display: inline-block;
+  cursor: pointer;
+  color: #ffffff;
+  font-family: Arial;
+  font-size: 17px;
+  padding: 8px 13px;
+  text-decoration: none;
+}
+
+.btnTest:hover {
+  background-color: white;
+  color: #932242;
+}
+/*CERTIF*/
+.EnglishCont{
+  margin-top: 50px;
+}
+.ImageCertif{
+  height:200px;
+}
+.boutonTestCertif{
+  margin-bottom: 50px !important;
+  display: flex;
+  justify-content: left !important;
+  margin-top: 20px;
+
+}
+
+
+.scrolling-title {
+  overflow: hidden;
+  display: flex;
+  flex-wrap: nowrap;
+  white-space: nowrap;
+  background-color: white;
+}
+.scrolling-title h1 {
+  color: #292929;
+  font-family: "Darby Sans Web";
+}
+
+.reserveTitle span {
+  color: #6a112b;
+}
+
+.reserveTitle {
+  /* animation properties */
+  -moz-transform: translateX(100%);
+  -webkit-transform: translateX(100%);
+  transform: translateX(100%);
+
+  -moz-animation: my-animation 30s linear infinite;
+  -webkit-animation: my-animation 30s linear infinite;
+  animation: my-animation 30s linear infinite;
+}
+
+/* for Firefox 
+@-moz-keyframes my-animation {
+  from { -moz-transform: translateX(100%); }
+  to { -moz-transform: translateX(-100%); }
+}*/
+
+/* for Chrome */
+@-webkit-keyframes my-animation {
+  from {
+    -webkit-transform: translateX(100%);
+  }
+  to {
+    -webkit-transform: translateX(-100%);
+  }
+}
+
+@keyframes my-animation {
+  from {
+    -moz-transform: translateX(100%);
+    -webkit-transform: translateX(100%);
+    transform: translateX(100%);
+  }
+  to {
+    -moz-transform: translateX(-100%);
+    -webkit-transform: translateX(-100%);
+    transform: translateX(-100%);
+  }
 }

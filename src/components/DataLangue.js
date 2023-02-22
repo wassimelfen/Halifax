@@ -6,6 +6,11 @@ let langues=[{title:'Anglais des affaires-Business English' ,
                 description:'Améliorez votre anglais pour vivre votre vie pleinement',
                 image:'images/eng2.png'},
                 
+                
+               {title:'Allemand',
+               description:'Améliorez votre anglais pour vivre votre vie pleinement',
+               image:'images/eng2.png'},
+               
                 {title:"Cours d'anglais pour les enfants",
                 description:'Les enfants peuvent acquérir une nouvelle langue et la parler couramment plus mieux que les adultes!',
                 image:'images/kids.png'},
