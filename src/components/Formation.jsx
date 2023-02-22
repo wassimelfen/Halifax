@@ -63,12 +63,17 @@ const Langues = () => {
     ],
   };
   return (
+    
     <div className="Formation">
       <div>
         <h1 className="langueTitle">Nos Formations</h1>
       </div>
       <div className="line"></div>
-      <div className="langueContainer">
+
+
+      <div className="container">
+        <div className="row">
+          <div className="col-md-12">
         <Slider {...settings}>
           {formation.map((item, index) => (
             <div key={index} className="langCard">
@@ -81,7 +86,9 @@ const Langues = () => {
             </div>
           ))}
         </Slider>
-      </div>
+        </div>
+        </div>
+        </div>
       <br />
       <Link to="/AllFormation">
         <button className="btnSeeAll">Toutes nos formations</button>

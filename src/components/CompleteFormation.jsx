@@ -3,6 +3,7 @@ import React from "react";
 const CompleteFormation = (props) => {
   const descriptionWithLineBreaks = props.data.description.replace(
     /:/g,
+    
     ":<br>"
   );
   return (
