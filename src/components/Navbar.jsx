@@ -23,7 +23,7 @@ function BasicExample() {
               </Link>
             </li>
             <li className="nav-item">
-              <Link to="/formation" className="nav-link">
+              <Link to="/AllLangue" className="nav-link">
                 Formations
               </Link>
             </li>

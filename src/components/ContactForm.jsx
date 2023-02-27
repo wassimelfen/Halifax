@@ -18,7 +18,14 @@ const ContactForm = () => {
       });
   };
   return (
-    <form className='formContact' ref={form} onSubmit={sendEmail}>
+    
+   <div className=' contact2'>
+    
+      
+    <form className='contact-form' ref={form} onSubmit={sendEmail}>
+    <h2>Contactez Nous </h2>
+ 
+
     <label className='label'>Nom et prénom</label>
     <input className='input' type="text" name="user_name" />
     <label className='label'>Email</label>
@@ -27,6 +34,8 @@ const ContactForm = () => {
     <textarea className='textarea' name="message" />
     <input className='sendbutton' type="submit" value="Envoyer" />
   </form>
+
+  </div>
 
 
   )
