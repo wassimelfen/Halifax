@@ -19,13 +19,13 @@ const ContactForm = () => {
   };
   return (
     <form className='formContact' ref={form} onSubmit={sendEmail}>
-    <label className='label'>Name</label>
+    <label className='label'>Nom et prénom</label>
     <input className='input' type="text" name="user_name" />
     <label className='label'>Email</label>
     <input className='input' type="email" name="user_email" />
     <label className='label'>Message</label>
     <textarea className='textarea' name="message" />
-    <input className='sendbutton' type="submit" value="Send" />
+    <input className='sendbutton' type="submit" value="Envoyer" />
   </form>
 
 

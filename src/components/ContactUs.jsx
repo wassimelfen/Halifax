@@ -6,7 +6,8 @@ import MapAdress from './MapAdress'
 
 const ContactUs = () => {
   return (
-    <div className='contactcontainer'>
+    
+    <div className='contactcontainer bg-img'>
 
     <div className='row'>
             <div className='col-md-6'>

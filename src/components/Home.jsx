@@ -1,6 +1,6 @@
 import React from 'react'
 import Navbar from './Navbar';
-import Hero from  './Hero';
+import Hero2 from  './Hero2';
 import SocialMedia from './SocialMedia';
 import ContactUs from './ContactUs';
 import Footer from './Footer';
@@ -14,7 +14,7 @@ const Home = () => {
     <div>
 <Navbar/>
 <div id="hero">
-        <Hero />
+        <Hero2 />
       </div>
 <NosValeurs/>
 <div id="langue">
