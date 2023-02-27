@@ -9,18 +9,18 @@ const CompleteFormation = (props) => {
   return (
     <div className="container">
       <div className="row">
-        <div className="col-md-4">
+        
           <img src={props.data.image} alt="pic" className="langpic"></img>
-        </div>
+       </div>
 
-        <div className="col-md-8">
+        <div className="row">
           <h1>{props.data.title}</h1>
           <p
             dangerouslySetInnerHTML={{ __html: descriptionWithLineBreaks }}
           ></p>
         </div>
       </div>
-    </div>
+    
   );
 };
 
