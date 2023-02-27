@@ -81,7 +81,7 @@ const Formations = () => {
       <br></br>
       <div>
         <Link to="/AllLangue">
-          <button className="btnSeeAll">Toutes nos formations </button>
+          <button className="btnSeeAll">Toutes nos formations &#187;</button>
         </Link>
       </div>
     </div>
