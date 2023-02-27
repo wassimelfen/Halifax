@@ -1,5 +1,5 @@
 import React from 'react'
-
+import { Link } from "react-router-dom";
 const Hero2 = () => {
   return (
     <div className='hero2-container'>
@@ -7,7 +7,9 @@ const Hero2 = () => {
     <div className="hero-text">
       <h1>Halifax !</h1>
       <p>Rejoignez nos programmes de formation complets pour atteindre votre plein potentiel</p>
-      <button className="btnHero">Découvrez Nos Formations &#187;</button>
+      <Link to="/AllLangue">
+        <button className="btnHero">Découvrez nos formations &#187;</button>
+      </Link>
     </div>
   </div>
 
@@ -15,7 +17,9 @@ const Hero2 = () => {
     <div className="hero-text">
       <h1>Halifax !</h1>
       <p>Accélérez votre carrière avec nos solutions de formation innovantes</p>
-      <button className="btnHero">Découvrez Nos Formations &#187; </button>
+      <Link to="/AllLangue">
+        <button className="btnHero">Découvrez nos formations &#187;</button>
+      </Link>
     </div>
   </div>
 
@@ -23,7 +27,9 @@ const Hero2 = () => {
     <div className="hero-text">
       <h1>Halifax !</h1>
       <p>Donnez un coup de pouce à vos compétences grâce à nos formations expert</p>
-      <button className="btnHero ">Découvrez Nos Formations &#187;</button>
+      <Link to="/AllLangue">
+        <button className="btnHero">Découvrez nos formations &#187;</button>
+      </Link>
     </div>
   </div>
   </div>

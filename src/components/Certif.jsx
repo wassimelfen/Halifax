@@ -33,8 +33,8 @@ const Certif = () => {
 
   </div>
 
-  <div className='boutonTestCertif'><a href='https://docs.google.com/forms/d/e/1FAIpQLSdHgAlOEcRqueFkhs57oNEF_IDtZuzYkfTWfJYUfp0EAHKVrg/viewform' target="_blank" rel="noreferrer"><button className='btnTest '>Testez votre niveau GRATUITEMENT !</button></a></div>
   <h1 className='TitreCertif'><span>F</span>rançais</h1>
+  <div className='boutonTestCertif'><a href='https://docs.google.com/forms/d/e/1FAIpQLSdHgAlOEcRqueFkhs57oNEF_IDtZuzYkfTWfJYUfp0EAHKVrg/viewform' target="_blank" rel="noreferrer"><button className='btnTest '>Testez votre niveau GRATUITEMENT !</button></a></div>
   <div className="row row-cols-1 row-cols-md-3 g-3">
     <div className="col">
       <div className="card">
