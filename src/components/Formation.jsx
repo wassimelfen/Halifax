@@ -63,37 +63,37 @@ const Langues = () => {
     ],
   };
   return (
-    
     <div className="Formation">
       <div>
         <h1 className="langueTitle">Nos Formations</h1>
       </div>
       <div className="line"></div>
 
-
       <div className="container">
         <div className="row">
-        
-        <Slider {...settings}>
-          {formation.map((item, index) => (
-            <div className="col-xl-4 col-md-6 col-xxl-">
-            
-              <div key={index}  className="cards">
-                <div className="langCardTop">
-                  <img src={item.image} className="langpic" alt={item.title} />
-                  <h3 className="formationTitle">{item.title}</h3>
+          <Slider {...settings}>
+            {formation.map((item, index) => (
+              <div className="col-xl-4 col-md-6 col-xxl-">
+                <div key={index} className="cards">
+                  <div className="langCardTop">
+                    <img
+                      src={item.image}
+                      className="langpic"
+                      alt={item.title}
+                    />
+                    <h3 className="formationTitle">{item.title}</h3>
+                  </div>
                 </div>
               </div>
-            </div>
-            
-          ))}
-        </Slider>
-        
+            ))}
+          </Slider>
         </div>
-        </div>
+      </div>
       <br />
       <Link to="/AllFormation">
-        <button className="btnSeeAll">Toutes nos formations  &#187;</button>
+        <button className="hbtn hb-fill-right">
+          Toutes Nos formations &#187;
+        </button>
       </Link>
     </div>
   );
