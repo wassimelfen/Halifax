@@ -481,16 +481,16 @@ body {
 /* hero 2  */
 .hero-carousel {
   background-color: #6a112b;
-  height: 555px;
+  height: 605px;
   width: 100%;
 }
 
 .hero-carousel-item {
-  height: 550px;
+  height: 600px;
 }
 
 .hero-carousel-img {
-  height: 550px;
+  height: 600px;
 }
 
 .hero-carousel-title {
@@ -552,9 +552,7 @@ body {
   }
   .carouselCaption,
   .carouselCaption2 {
-    /* background-color: #212529; */
     width: 85% !important;
-    /* height: 30% !important; */
   }
 }
 
@@ -617,7 +615,11 @@ body {
 }
 
 .carouselCaptionMobile2 button {
-  margin-top: 12px;
+  margin-top: 48px !important;
+}
+
+.carouselCaptionMobile button {
+  margin-top: 85px !important;
 }
 
 /* button slide hover efffect */
@@ -664,4 +666,5 @@ body {
   color: #8a1538;
   background: rgb(255, 255, 255);
   transition: color 0.3s ease 0s, background 0s ease 0.3s;
+  font-weight: 500;
 }
