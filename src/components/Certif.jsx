@@ -1,10 +1,12 @@
 import React from 'react'
-import Navbar from "./Navbar";
+import NavBar2 from "./NavBar2";
+import Footer from './Footer';
+import Contact2 from './Contact2';
 const Certif = () => {
   return (
     
          <div>
-    <div className='AllNav'><Navbar /></div>
+    <div className='AllNav'><NavBar2 /></div>
 
     <div className="container EnglishCont">
    <h1 className='TitreCertif'><span>A</span>nglais</h1>
@@ -62,6 +64,9 @@ const Certif = () => {
     </div>
   
     </div>
+<Contact2/>
+<Footer/>
+
     </div>
   )
 }

@@ -1,14 +1,17 @@
 let formation=[{id:0,
+        language:'english',
                 title:"Comptabilité et management",
                 description:"",
                 image :'images/compta.png'},
                
                {id:1,
+                language:'french',
                 title:'Management des PME',
                 description:"",
                 image:'images/PME.png'},
                 
                 {id:2,
+                language:'arabic',
                 title:"Responsable qualité",
                 description:"",
                 image:'images/qualité.png'},

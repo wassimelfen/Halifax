@@ -1,9 +1,11 @@
 import React from 'react'
-import Navbar from "./Navbar";
+import Contact2 from './Contact2';
+import Footer from './Footer';
+import NavBar2 from "./NavBar2";
 const Allemand = () => {
   return (
     <div>
-    <div className='AllNav'><Navbar /></div>
+    <div className='AllNav'><NavBar2 /></div>
 
     <div className="container">
       
@@ -115,6 +117,9 @@ Nb: Il ne suffit pas de juste se présenter aux séances d'apprentissage de la l
         </div>
         </div>
         </div>
+        <Contact2/>
+        <Footer/>
+
 </div>
     )
   }

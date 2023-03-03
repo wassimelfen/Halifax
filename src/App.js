@@ -8,6 +8,11 @@ import AllLangue from './components/AllLangue';
 import OneFormation from './components/OneFormation';
 import Allemand from './components/Allemand';
 import Certif from './components/Certif';
+import AllFormation from './components/AllFormation';
+import Contact from './components/Contact';
+
+
+import Details from './components/Details';
 
 function App() {
   return (
@@ -17,9 +22,20 @@ function App() {
 <Route path='/formation' element={<Formation />}></Route>
 <Route path='/langue' element={<Langue/>}></Route>
 <Route path='/AllLangue' element={<AllLangue/>}></Route>
+<Route path='/AllFormation' element={<AllFormation/>}></Route>
 <Route path='/OneFormation' element={<OneFormation/>}></Route>
 <Route path='/Allemand' element={<Allemand/>}></Route>
 <Route path='/certif' element={<Certif/>}></Route>
+<Route path='/contact' element={<Contact/>}></Route>
+
+
+<Route path="/details/:language" element={<Details />} />
+
+
+        
+
+      
+
 </Routes>
     </div>
   );
