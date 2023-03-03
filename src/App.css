@@ -1,5 +1,28 @@
+.navPic{
+  height: 80px;
+  margin-bottom: 1.2rem;
+  
+}
+/*.navbar-nav a:hover {
+  text-decoration: underline;
+}*/
+.navbar-nav{
+  font-weight: 600;
+}
+.navMenu{
+  color: #292929bb ;
+  font-family:"Darby Sans Web" ; 
+  margin-bottom: -15px;
+
+}
 
 
+.NavTitle{
+  color:#8a1538;
+  font-family:"Darby Sans Web" ;
+  margin-bottom: -1px;
+  
+}
 
 /*HERO2*/
 
@@ -234,13 +257,6 @@ margin-top: 30px;
   
 }
 
-  .mapstyle {
-    width: 340px !important;
-    height: 300px !important;
-    margin-left: -1px !important;
-    margin-top: 15px;
-    margin-right: 3px;
-  }
   .formContact {
     width: 340px !important;
   }
@@ -371,17 +387,24 @@ margin-top: 30px;
 }
 /*FOOTER*/
 .footersection {
-  background-color: #212529;
+ border-top:15px #6a112b !important;
+
+ /* background-color: #212529;*/
+  background-color: white;
   max-width: 1600px !important;
   /*margin-top: 5%;*/
   align-items: center;
-  color: #fff;
+  color:#292929;
   align-items: center;
   justify-content: center;
   padding-bottom: 10px;
+  font-family:"Darby Sans Web" ;
+  font-size: larger;
+  font-weight: 600;
 }
 
 .footerDiv {
+
   justify-content: center !important;
   align-items: center !important;
   margin-top: 30px !important;
@@ -392,13 +415,12 @@ margin-top: 30px;
   height: 70px;
   width: 200px;
   margin-bottom: 10px;
-  margin-left: 50px;
+  /*margin-left: 50px;*/
 }
 
 /*social media*/
 .socialstyle {
-  background-color:#ebdcdc93;
-  display: flex;
+    display: flex;
   margin:auto;
   align-items: center;
   justify-content: center;
@@ -410,18 +432,19 @@ margin-top: 30px;
   font-size: 50px;
   margin-top: 20px 0;
 }
-
-.socialicon:hover {
-  color: grey;
+.map{
+  background-color: #fcf5f7;
+  
+  
 }
 
 .mapstyle {
-  margin-left: 20px;
+  margin-top: 20px;
+  /*margin-left: 20px;*/
   align-items: center;
   height: 400px;
-  width: 400px;
-  display: block;
-}
+  width: 100%;
+  position :relative;}
 
 .submit:hover {
   box-shadow: 15px 15px 15px 5px rgba(78, 72, 77, 0.219);

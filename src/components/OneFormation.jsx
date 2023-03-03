@@ -1,12 +1,12 @@
 import React from 'react'
-import Navbar from './Navbar'
+import NavBar2 from './NavBar2'
 import CompleteFormation from './CompleteFormation'
 import { langue } from './DataAllLangue'
 const OneFormation = () => {
   return (
     <div>
-      <div className='AllNav'><Navbar /></div>
-
+      <div className='AllNav'><NavBar2 /></div>
+<div></div>
 
         <div className='container'>
         <div className='row'>
