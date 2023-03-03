@@ -73,7 +73,7 @@ const Langues = () => {
         <div className="row">
           <Slider {...settings}>
             {formation.map((item, index) => (
-              <div className="col-xl-4 col-md-6 col-xxl-">
+              <div className="col-xl-4 col-md-6 col-xxl-" key={index}>
                 <div key={index} className="cards">
                   <div className="langCardTop">
                     <img
