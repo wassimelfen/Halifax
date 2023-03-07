@@ -1,15 +1,71 @@
 body {
-  background-color: #ebebeb !important;
+ 
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif !important ;
 }
+/*FORMAT2*/
+
+
+.forma2{
+  
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: left;
+}
+.cartepic{
+  width: 100%;
+  height: 250px;
+  object-fit: cover;
+}
+.carte{
+  padding-top: 8px;
+  padding-left: 8px;
+  padding-right: 8px;
+  padding-bottom: 8px;
+  margin: 10px;
+  width: 280px;
+  height:400px;
+  background-color: #fff;
+  border: 0px solid #ccc;
+  box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.2);
+  text-align: center;
+  
+}
+
+.cartetitre{
+  font-size: 1.3em !important;
+  font-weight: 600 !important;
+  font-family: "Darby Sans Web" !important;
+  color: #292929 !important;
+  margin-top: 10px;
+}
+
+.btncarte {
+  background-color: #ffffff;
+  border-radius: 17px;
+  border: 1px solid #8a1538;
+  display: inline-block;
+  cursor: pointer;
+  color: #8a1538;
+  font-family: Arial;
+  font-weight: bold;
+  font-size: 17px;
+  padding: 8px 13px;
+  text-decoration: none ;
+  align-items: right;
+  align-self: baseline !important;
+
+  
+}
+
+
+/*NavBar*/
 .navPic {
   height: 50px;
   margin-bottom: 1.2rem;
   margin-top: 0.7rem;
 }
-/*.navbar-nav a:hover {
-  text-decoration: underline;
-}*/
+
 .navbar-nav {
   font-weight: 600;
 }
@@ -48,13 +104,27 @@ body {
   text-decoration: none;
   align-items: right;
 }
+/*LANGUE*/
+
+.cardsLangue {
+  margin:20px;
+
+  width: 300px !important;
+  height: 370px !important ;
+  background-color: #fff;
+  border: 0px solid #ccc;
+  box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.2);
+  text-align: center;
+}
+
 
 /*FORMATIONS*/
 
 .cards {
   margin: 20px;
-  width: 300px;
-  height: 300px;
+padding-left: -15px;
+width: 300px;
+  height: 300px ;
   background-color: #fff;
   border: 0px solid #ccc;
   box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.2);
@@ -113,12 +183,12 @@ body {
 .btnSeeAll {
   background-color: #ffffff;
   border-radius: 17px;
-  border: 2px solid #8a1538;
+  border: 1px solid #8a1538;
   display: inline-block;
   cursor: pointer;
   color: #8a1538;
-  font-family: Arial;
-  font-weight: bold;
+  font-family: "Darby Sans Web";
+  font-weight: 600;
   font-size: 17px;
   padding: 8px 13px;
   text-decoration: none;
@@ -164,6 +234,7 @@ body {
     border-radius: 0%;
     align-items: center !important;
     justify-content: center !important;
+    flex-wrap: wrap;
   }
   .langCard {
     overflow: hidden;
@@ -210,6 +281,7 @@ body {
     margin-left: 28px !important;
     margin-top: 50px;
   }
+  
   .Langue {
     margin-top: 5%;
     margin-left: 28px;
@@ -221,6 +293,7 @@ body {
     padding: 10px;
     width: "100%";
     height: "23rem";
+  
   }
   .langCard {
     overflow: hidden;
@@ -470,7 +543,7 @@ body {
   white-space: nowrap;
   background-color: white;
   padding-top: 10px;
-  border-bottom: 5px solid #6a112b;
+  border-bottom: 2px solid #6a112b;
 }
 .scrolling-title h1 {
   font-size: 1.8em;
@@ -524,35 +597,49 @@ body {
 
 /* hero 2  */
 .hero-carousel {
-  background-color: #6a112b;
-  height: 605px;
+  /*background-color: #6a112b;*/
+  height: 600px;
   width: 100%;
 }
 
 .hero-carousel-item {
   height: 600px;
+  
 }
 
 .hero-carousel-img {
+  width: 100%;
   height: 600px;
+
+  
+  
 }
 
 .hero-carousel-title {
   font-size: 48px;
   color: white;
   margin-bottom: 26px;
+  font-family: "Darby Sans Web";
+
 }
 
 .hero-carousel-text {
-  font-size: 24px;
+  font-size: 30px;
   color: white;
-  margin-bottom: 34px;
+ /* margin-bottom: 34px;*/
+  font-family: "Darby Sans Web";
+  margin-left: 50px;
+ 
+  font-weight: 400;
+
 }
 
 .hero-carousel-text2 {
-  font-size: 24px;
+  font-size: 30px;
   color: white;
-  margin-top: 44px;
+
+  font-family: "Darby Sans Web";
+
 }
 
 .hero-carousel-button {
@@ -560,23 +647,25 @@ body {
   color: #6a112b;
   border: none;
   padding: 12px 17px;
-  font-size: 22px;
-  font-weight: bold;
+  font-family: "Darby Sans Web";
+  font-size: 20px;
+  font-weight:500;
   border-radius: 30px;
   margin-right: 26px;
-  margin-top: 5px;
+  /*margin-top: 5px;*/
   cursor: pointer;
 }
 .hero-carousel-button2 {
   background-color: white;
   color: #6a112b;
   border: none;
+  font-family: "Darby Sans Web";
   padding: 10px 14px;
   font-size: 20px;
-  font-weight: bold;
+  font-weight: 500;
   border-radius: 30px;
   margin-left: 15px;
-  margin-top: 30px;
+  /*margin-top: 30px;*/
   cursor: pointer;
 }
 @media (min-width: 768px) {
@@ -602,7 +691,9 @@ body {
 
 .hero-carousel-button:hover,
 .hero-carousel-button2:hover {
-  background-color: #d1d1d1;
+  background-color:  #6a112b;
+  color: white;
+  
 }
 
 .carouselCaption {

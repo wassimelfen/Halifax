@@ -1,7 +1,7 @@
 import React from 'react'
 import NavBar2 from './NavBar2'
 import CompleteFormation from './CompleteFormation'
-import { langue } from './DataAllLangue'
+import { langues } from './DataAllLangue'
 const OneFormation = () => {
   return (
     <div>
@@ -14,7 +14,7 @@ const OneFormation = () => {
         <div className='col-md-3'></div>
 
         <div className='col-md-6'>       
-         {langue.map((item, index) => (
+         {langues.map((item, index) => (
         <CompleteFormation key={index} data={item}/>
         ))}     
         </div>
