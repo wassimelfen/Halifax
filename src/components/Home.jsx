@@ -5,9 +5,10 @@ import SocialMedia from "./SocialMedia";
 import Contact2 from "./Contact2";
 import Footer from "./Footer";
 import Gallery from "./Gallery";
-import Formation from "./Formation";
-import Langue from "./Langue";
+
 import NosValeurs from "./NosValeurs";
+import Forma2 from "./Forma2";
+import Langue2 from "./Langue2"
 
 const Home = () => {
   return (
@@ -19,13 +20,15 @@ const Home = () => {
         <Hero2 />
       </div>
       <NosValeurs />
+   <div>
+    <Forma2 id="formation"/>
+   </div>
+
       <div id="langue">
-        <Langue />
+        <Langue2 />
       </div>
 
-      <div id="formation">
-        <Formation />
-      </div>
+      
       <div id="gallery">
         <Gallery />
       </div>

@@ -32,7 +32,7 @@ const Langues = () => {
     speed: 500,
     slidesToShow: 3,
     slidesToScroll: 1,
-    initialSlide: 0,
+   
     nextArrow: <SampleNextArrow />,
     prevArrow: <SamplePrevArrow />,
     responsive: [
@@ -48,9 +48,10 @@ const Langues = () => {
       {
         breakpoint: 600,
         settings: {
-          slidesToShow: 2,
-          slidesToScroll: 2,
-          initialSlide: 2,
+          slidesToShow: 1,
+          slidesToScroll: 1,
+         
+          centerPadding: "20px",
         },
       },
       {
@@ -58,6 +59,8 @@ const Langues = () => {
         settings: {
           slidesToShow: 1,
           slidesToScroll: 1,
+          centerPadding: "20px",
+
         },
       },
     ],

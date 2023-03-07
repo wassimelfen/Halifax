@@ -59,6 +59,7 @@ const Formations = () => {
         settings: {
           slidesToShow: 1,
           slidesToScroll: 1,
+          initialSlide: 1,
         },
       },
     ],
@@ -72,7 +73,7 @@ const Formations = () => {
       <div className="line"></div>
 
       <div className="langueContainer">
-        <Slider {...settings}>
+        <Slider {...settings} >
           {langues.map((item, index) => (
             <SingleFormation key={index} data={item} />
           ))}
