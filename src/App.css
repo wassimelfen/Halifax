@@ -1,32 +1,97 @@
-.navPic{
-  height: 80px;
-  margin-bottom: 1.2rem;
+body {
+ 
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif !important ;
+}
+/*FORMAT2*/
+
+
+.forma2{
+  
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: left;
+}
+.cartepic{
+  width: 100%;
+  height: 250px;
+  object-fit: cover;
+}
+.carte{
+  padding-top: 8px;
+  padding-left: 8px;
+  padding-right: 8px;
+  padding-bottom: 8px;
+  margin: 10px;
+  width: 280px;
+  height:400px;
+  background-color: #fff;
+  border: 0px solid #ccc;
+  box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.2);
+  text-align: center;
   
 }
-/*.navbar-nav a:hover {
-  text-decoration: underline;
-}*/
-.navbar-nav{
+
+.cartetitre{
+  font-size: 1.3em !important;
+  font-weight: 600 !important;
+  font-family: "Darby Sans Web" !important;
+  color: #292929 !important;
+  margin-top: 10px;
+}
+
+.btncarte {
+  background-color: #ffffff;
+  border-radius: 17px;
+  border: 1px solid #8a1538;
+  display: inline-block;
+  cursor: pointer;
+  color: #8a1538;
+  font-family: Arial;
+  font-weight: bold;
+  font-size: 17px;
+  padding: 8px 13px;
+  text-decoration: none ;
+  align-items: right;
+  align-self: baseline !important;
+
+  
+}
+
+
+/*NavBar*/
+.navPic {
+  height: 50px;
+  margin-bottom: 1.2rem;
+  margin-top: 0.7rem;
+}
+
+.navbar-nav {
   font-weight: 600;
 }
-.navMenu{
-  color: #292929bb ;
-  font-family:"Darby Sans Web" ; 
-  margin-bottom: -15px;
-
+.navMenu {
+  color: #292929bb;
+  font-family: "Darby Sans Web";
+  margin-bottom: -5px;
 }
 
+.NavLogo {
+  height: 50px;
+}
 
-.NavTitle{
-  color:#8a1538;
-  font-family:"Darby Sans Web" ;
+.NavTitle {
+  color: #8a1538;
+  font-family: "Darby Sans Web";
   margin-bottom: -1px;
-  
+}
+
+.NavTitle:hover {
+  color: #af224c;
 }
 
 /*HERO2*/
 
-.btnHero{
+.btnHero {
   background-color: white;
   border-radius: 13px;
   border: 1px solid #8a1538;
@@ -38,87 +103,34 @@
   padding: 8px 13px;
   text-decoration: none;
   align-items: right;
+}
+/*LANGUE*/
 
-  
-}
-.btnHero:hover {
-  background-color:  #8a1538 !important;
-  color: white !important;
-  
-}
+.cardsLangue {
+  margin:20px;
 
-.hero-slide {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  background-size: cover;
-  background-position: center;
-  opacity: 0;
-  z-index: 1; 
-  animation: slideShow 30s ease-in-out infinite;
-
-  
+  width: 300px !important;
+  height: 370px !important ;
+  background-color: #fff;
+  border: 0px solid #ccc;
+  box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.2);
+  text-align: center;
 }
-.hero-slide:first-child {
-  opacity: 1;
-}
-.hero-text {
-  text-align: left;
-  position: absolute;
-  top: 50%;
-  left: 30%;
-  transform: translate(-50%, -50%);
-  color:#6a112b;
-}
-.hero2-container{
-  position: relative;
-  height: 600px;
-  overflow: hidden;
-}
-@keyframes slideShow {
-  0% {
-    opacity: 0;
-  }
-  5% {
-    opacity: 1;
-  }
-  25% {
-    opacity: 1;
-  }
-  30% {
-    opacity: 0;
-  }
-  100% {
-    opacity: 0;
-  }
-
-  
-}
-
-.hero-slide:nth-child(2) {
-  
-  animation-delay: 10s;
-}
-
-.hero-slide:nth-child(3) {
-  animation-delay: 20s;
-}
-
 
 
 /*FORMATIONS*/
 
-.cards{
-  width:300px;
-  height:280px;
+.cards {
+  margin: 20px;
+padding-left: -15px;
+width: 300px;
+  height: 300px ;
   background-color: #fff;
   border: 0px solid #ccc;
-  box-shadow: 0 0 10px 0  rgba(0, 0, 0, 0.2);
+  box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.2);
   text-align: center;
 }
-.formationTitle{
+.formationTitle {
   font-size: 1.3em !important;
   font-weight: 600 !important;
   font-family: "Darby Sans Web" !important;
@@ -130,7 +142,6 @@
 .slick-list {
   margin: 0 -10px;
 }
-
 
 .langCardTop > h3 {
   font-family: "Darby Sans Web" !important;
@@ -170,30 +181,28 @@
 }
 
 .btnSeeAll {
-  background-color: #8a1538;
+  background-color: #ffffff;
   border-radius: 17px;
-  border: 2px solid #8a1538;
+  border: 1px solid #8a1538;
   display: inline-block;
   cursor: pointer;
-  color: #ffffff;
-  font-family: Arial;
+  color: #8a1538;
+  font-family: "Darby Sans Web";
+  font-weight: 600;
   font-size: 17px;
   padding: 8px 13px;
   text-decoration: none;
   align-items: right;
 }
 .btnSeeAll:hover {
-  background-color: white;
-  color: #932242;
+  color: white;
+  background-color: #932242;
 }
 
 .halifaxWord {
-  color: #932242!important;
-  font-family:"Darby Sans Web" ;
-
+  color: #932242 !important;
+  font-family: "Darby Sans Web";
 }
-
-
 
 .langCard {
   overflow: hidden;
@@ -202,24 +211,22 @@
   padding: 10px;
 }
 @media (min-width: 768px) {
-  
-.contact2 {
-  padding-top: 5px;
-  padding-bottom: 5px;
-margin-top: 30px;
-  background-image: url('slide1.jpg');
-  background-size: cover;
-  font-family: Arial, sans-serif;
-}
+  .contact2 {
+    padding-top: 5px;
+    padding-bottom: 5px;
+    margin-top: 30px;
+    background-image: url("slide1.jpg");
+    background-size: cover;
+    font-family: Arial, sans-serif;
+  }
 
-.contact-form {
-  
-  width: 30%;
-  margin: auto;
-  padding: 10px;
-  background-color: rgba(255, 255, 255, 0.5);
-  border-radius: 10px;
-}
+  .contact-form {
+    width: 30%;
+    margin: auto;
+    padding: 10px;
+    background-color: rgba(255, 255, 255, 0.5);
+    border-radius: 10px;
+  }
 
   .cards {
     padding: 10px;
@@ -227,6 +234,7 @@ margin-top: 30px;
     border-radius: 0%;
     align-items: center !important;
     justify-content: center !important;
+    flex-wrap: wrap;
   }
   .langCard {
     overflow: hidden;
@@ -239,33 +247,29 @@ margin-top: 30px;
 }
 
 @media (max-width: 768px) {
- 
-.contact2 {
-  margin-top: 30px;
-  margin-bottom: 0px;
-  background-image: url('slide1.jpg');
-  background-size: cover;
-  font-family: Arial, sans-serif;
-}
+  .contact2 {
+    margin-top: 30px;
+    margin-bottom: 0px;
+    background-image: url("slide1.jpg");
+    background-size: cover;
+    font-family: Arial, sans-serif;
+  }
 
-.contact-form {
-  
-  width: 100%;
-  margin:  auto;
-  padding: 10px;
-  background-color: rgba(255, 255, 255, 0.5);
-  
-}
+  .contact-form {
+    width: 100%;
+    margin: auto;
+    padding: 10px;
+    background-color: rgba(255, 255, 255, 0.5);
+  }
 
   .formContact {
     width: 340px !important;
   }
 
-  
   body {
     overflow-x: hidden !important;
   }
-  
+
   .langueContainer {
     width: 100% !important;
     text-align: center;
@@ -277,17 +281,19 @@ margin-top: 30px;
     margin-left: 28px !important;
     margin-top: 50px;
   }
+  
   .Langue {
     margin-top: 5%;
     margin-left: 28px;
     width: 85%;
     /* background-color: #212529; */
   }
-  
+
   .cards {
     padding: 10px;
     width: "100%";
     height: "23rem";
+  
   }
   .langCard {
     overflow: hidden;
@@ -307,19 +313,17 @@ margin-top: 30px;
   justify-content: center;
 }
 
-
-
 /*CONTACT*/
 
 .contact-form h2 {
   margin-top: 5px;
-  font-family:"Darby Sans Web" ;
+  font-family: "Darby Sans Web";
   text-align: center;
   margin-bottom: 5px;
 }
 
-.contact-form input[type="text"], 
-.contact-form input[type="email"], 
+.contact-form input[type="text"],
+.contact-form input[type="email"],
 .contact-form textarea {
   width: 100%;
   border: 0.5px solid #b4b0b1;
@@ -333,16 +337,18 @@ margin-top: 30px;
   transition: ease 0.2s;
 }
 
+.contact-form input {
+  height: 40px;
+}
 
 .contact-form textarea {
   height: 100px;
 }
 .label {
-  font-family:"Darby Sans Web" ;
+  font-family: "Darby Sans Web";
   font-weight: 700;
   margin-top: 1rem;
   margin-bottom: 0.2rem;
-  
 }
 .sendbutton {
   margin-left: 25%;
@@ -372,39 +378,25 @@ margin-top: 30px;
   top: 1px;
 }
 
-/*HERO*/
-.heropic {
-  height: 600px;
-}
-
-.carouselCaption {
-  background-color: #2424249f;
-  border-radius: 15px;
-}
-
-.carouselCaption p {
-  font-size: larger;
-}
 /*FOOTER*/
 .footersection {
- border-top:15px #6a112b !important;
+  border-top: 15px #6a112b !important;
 
- /* background-color: #212529;*/
+  /* background-color: #212529;*/
   background-color: white;
   max-width: 1600px !important;
   /*margin-top: 5%;*/
   align-items: center;
-  color:#292929;
+  color: #292929;
   align-items: center;
   justify-content: center;
   padding-bottom: 10px;
-  font-family:"Darby Sans Web" ;
+  font-family: "Darby Sans Web";
   font-size: larger;
   font-weight: 600;
 }
 
 .footerDiv {
-
   justify-content: center !important;
   align-items: center !important;
   margin-top: 30px !important;
@@ -420,8 +412,8 @@ margin-top: 30px;
 
 /*social media*/
 .socialstyle {
-    display: flex;
-  margin:auto;
+  display: flex;
+  margin: auto;
   align-items: center;
   justify-content: center;
 }
@@ -432,10 +424,8 @@ margin-top: 30px;
   font-size: 50px;
   margin-top: 20px 0;
 }
-.map{
+.map {
   background-color: #fcf5f7;
-  
-  
 }
 
 .mapstyle {
@@ -444,7 +434,8 @@ margin-top: 30px;
   align-items: center;
   height: 400px;
   width: 100%;
-  position :relative;}
+  position: relative;
+}
 
 .submit:hover {
   box-shadow: 15px 15px 15px 5px rgba(78, 72, 77, 0.219);
@@ -474,48 +465,47 @@ margin-top: 30px;
 }
 
 /*ALLEMAND*/
-.card-img-top{
-  height:200px;
+.card-img-top {
+  height: 200px;
 }
 .TitreCertif {
   margin-top: 50px !important;
   margin-bottom: 30px;
   color: #292929;
-  font-family:"Darby Sans Web"; 
+  font-family: "Darby Sans Web";
 }
-.TitreAllemand{
+.TitreAllemand {
   margin-top: 50px !important;
   margin-bottom: 30px;
-  color:#6a112b;
-  font-family:"Darby Sans Web"; 
+  color: #6a112b;
+  font-family: "Darby Sans Web";
 }
 
 .TitreCertif span {
   color: #6a112b;
 }
-.TestPara{
+.TestPara {
   font-family: "Darby Sans Web";
   font-size: 20px;
   text-align: justify;
 }
-.card-title{
+.card-title {
   font-family: "Darby Sans Web";
   font-weight: bold;
 }
-.card-text{
-  font-family: "Darby Sans Web"; 
+.card-text {
+  font-family: "Darby Sans Web";
   font-size: large;
 }
-.instit{
+.instit {
   margin-bottom: 50px;
 }
-.boutonTest{
-  
+.boutonTest {
   display: flex;
   justify-content: center !important;
   margin-top: 20px;
 }
-.btnTest{
+.btnTest {
   background-color: #8a1538;
   border-radius: 17px;
   border: 2px solid #8a1538;
@@ -533,20 +523,18 @@ margin-top: 30px;
   color: #932242;
 }
 /*CERTIF*/
-.EnglishCont{
+.EnglishCont {
   margin-top: 50px;
 }
-.ImageCertif{
-  height:200px;
+.ImageCertif {
+  height: 200px;
 }
-.boutonTestCertif{
+.boutonTestCertif {
   margin-bottom: 50px !important;
   display: flex;
   justify-content: left !important;
   margin-top: 20px;
-
 }
-
 
 .scrolling-title {
   overflow: hidden;
@@ -554,9 +542,11 @@ margin-top: 30px;
   flex-wrap: nowrap;
   white-space: nowrap;
   background-color: white;
+  padding-top: 10px;
+  border-bottom: 2px solid #6a112b;
 }
 .scrolling-title h1 {
-  font-size: 1.8em ;
+  font-size: 1.8em;
   color: #292929;
   font-family: "Darby Sans Web";
 }
@@ -603,4 +593,213 @@ margin-top: 30px;
     -webkit-transform: translateX(-100%);
     transform: translateX(-100%);
   }
+}
+
+/* hero 2  */
+.hero-carousel {
+  /*background-color: #6a112b;*/
+  height: 600px;
+  width: 100%;
+}
+
+.hero-carousel-item {
+  height: 600px;
+  
+}
+
+.hero-carousel-img {
+  width: 100%;
+  height: 600px;
+
+  
+  
+}
+
+.hero-carousel-title {
+  font-size: 48px;
+  color: white;
+  margin-bottom: 26px;
+  font-family: "Darby Sans Web";
+
+}
+
+.hero-carousel-text {
+  font-size: 30px;
+  color: white;
+ /* margin-bottom: 34px;*/
+  font-family: "Darby Sans Web";
+  margin-left: 50px;
+ 
+  font-weight: 400;
+
+}
+
+.hero-carousel-text2 {
+  font-size: 30px;
+  color: white;
+
+  font-family: "Darby Sans Web";
+
+}
+
+.hero-carousel-button {
+  background-color: white;
+  color: #6a112b;
+  border: none;
+  padding: 12px 17px;
+  font-family: "Darby Sans Web";
+  font-size: 20px;
+  font-weight:500;
+  border-radius: 30px;
+  margin-right: 26px;
+  /*margin-top: 5px;*/
+  cursor: pointer;
+}
+.hero-carousel-button2 {
+  background-color: white;
+  color: #6a112b;
+  border: none;
+  font-family: "Darby Sans Web";
+  padding: 10px 14px;
+  font-size: 20px;
+  font-weight: 500;
+  border-radius: 30px;
+  margin-left: 15px;
+  /*margin-top: 30px;*/
+  cursor: pointer;
+}
+@media (min-width: 768px) {
+  .carouselCaptionMobile,
+  .carouselCaptionMobile2 {
+    display: none;
+  }
+}
+@media (max-width: 768px) {
+  .hero-carousel-button {
+    padding: 12px 24px;
+    font-size: 18px;
+  }
+  .carouselCaption,
+  .carouselCaption2 {
+    display: none;
+  }
+  .carouselCaption,
+  .carouselCaption2 {
+    width: 85% !important;
+  }
+}
+
+.hero-carousel-button:hover,
+.hero-carousel-button2:hover {
+  background-color:  #6a112b;
+  color: white;
+  
+}
+
+.carouselCaption {
+  /* background-color: #b4b0b1; */
+  width: 45%;
+  margin-left: -6%;
+  height: 80% !important;
+}
+.carouselCaption2 {
+  /* background-color: #b4b0b1; */
+  width: 35%;
+  margin-left: -10%;
+  height: 85% !important;
+}
+.carouselCaptionMobile {
+  position: absolute;
+  top: 35%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  color: white;
+  width: 85%;
+  max-width: 400px;
+  margin-left: 32%;
+}
+.carouselCaptionMobile2 {
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  color: white;
+  width: 85%;
+  max-width: 400px;
+  margin-left: 32%;
+}
+.carouselCaptionMobile h3,
+.carouselCaptionMobile2 h3 {
+  font-size: 32px;
+  font-weight: bold;
+}
+.carouselCaptionMobile p,
+.carouselCaptionMobile2 p {
+  font-size: 18px;
+  margin-bottom: 235px;
+  margin-top: -10px;
+  font-weight: bold;
+}
+.carouselCaptionMobile button,
+.carouselCaptionMobile2 button {
+  font-size: 12px;
+  padding: 10px 15px;
+  font-weight: bold;
+}
+
+.carouselCaptionMobile2 button {
+  margin-top: 48px !important;
+}
+
+.carouselCaptionMobile button {
+  margin-top: 85px !important;
+}
+
+/* button slide hover efffect */
+.hbtn {
+  position: relative;
+  box-sizing: border-box;
+  display: inline-block;
+  overflow: hidden;
+  padding: 8px 20px;
+  margin: 0px 3px 6px;
+  text-align: center;
+  border: 3px solid #8a1538;
+  text-decoration: none;
+  color: rgb(255, 255, 255);
+  background-color: #8a1538;
+  border-radius: 10px;
+  white-space: nowrap;
+  z-index: 0;
+}
+
+.hbtn i {
+  padding-right: 8px;
+}
+
+.hb-fill-right::before {
+  position: absolute;
+  content: "";
+  background: rgb(255, 255, 255);
+  transition-duration: 0.3s;
+  z-index: -1;
+  inset: 0px auto auto 0px;
+  width: 0px;
+  height: 100%;
+  opacity: 1;
+}
+
+.hb-fill-right:hover::before {
+  width: 100%;
+  height: 100%;
+  opacity: 1;
+}
+
+.hb-fill-right:hover {
+  color: #8a1538;
+  background: rgb(255, 255, 255);
+  transition: color 0.3s ease 0s, background 0s ease 0.3s;
+  font-weight: 500;
 }

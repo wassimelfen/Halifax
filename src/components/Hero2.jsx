@@ -1,39 +1,77 @@
-import React from 'react'
-import { Link } from "react-router-dom";
+import React from "react";
+import { Carousel } from "react-bootstrap";
+import mobileSlide1 from "../caro1.jpg";
+import mobileSlide2 from "../woman.png";
+import desktopSlide1 from "../caro3.jpg";
+import desktopSlide2 from "../caro2.jpg";
+import "../App.css";
+
 const Hero2 = () => {
   return (
-    <div className='hero2-container'>
-    <div className="hero-slide" style={{backgroundImage: "url(slide1.jpg) linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5))"}}>
-    <div className="hero-text">
-      <h1>Halifax !</h1>
-      <p>Rejoignez nos programmes de formation complets pour atteindre votre plein potentiel</p>
-      <Link to="/AllLangue">
-        <button className="btnHero">Découvrez nos formations &#187;</button>
-      </Link>
-    </div>
-  </div>
+    <Carousel interval={3000} fade={true} className="hero-carousel">
+      <Carousel.Item className="hero-carousel-item">
+        <img
+          className="hero-carousel-img d-block d-md-none w-100"
+          src={mobileSlide1}
+          alt="First mobile slide"
+        />
+        <img
+          className="hero-carousel-img d-none d-md-block w-100"
+          src={desktopSlide1}
+          alt="First desktop slide"
+        />
+        <Carousel.Caption className="carouselCaption">
+          
+          <p className="hero-carousel-text">
+            
+Donnez un coup de pouce à vos compétences grâce à nos formations expert
+          </p>
+          <button className="hero-carousel-button">Langues</button>
+          <button className="hero-carousel-button">Formations</button>
+        </Carousel.Caption>
+        <Carousel.Caption className="carouselCaptionMobile">
+         
+          <p className="hero-carousel-text2">
+            Rejoignez nos programmes de formation complets pour atteindre votre
+            plein potentiel
+          </p>
+          <button className="hero-carousel-button2">Langues</button>
+          <button className="hero-carousel-button2">Formations</button>
+        </Carousel.Caption>
+      </Carousel.Item>
 
-  <div className="hero-slide" style={{backgroundImage: "url(slide2.jpg)"}}>
-    <div className="hero-text">
-      <h1>Halifax !</h1>
-      <p>Accélérez votre carrière avec nos solutions de formation innovantes</p>
-      <Link to="/AllLangue">
-        <button className="btnHero">Découvrez nos formations &#187;</button>
-      </Link>
-    </div>
-  </div>
+      <Carousel.Item className="hero-carousel-item">
+        <img
+          className="hero-carousel-img d-block d-md-none w-100"
+          src={mobileSlide2}
+          alt="First mobile slide"
+        />
+        <img
+          className="hero-carousel-img d-none d-md-block w-100"
+          src={desktopSlide2}
+          alt="First desktop slide"
+        />
+        <Carousel.Caption className="carouselCaption2">
+          
+          <p className="hero-carousel-text2">
+            Rejoignez nos programmes de formation complets pour atteindre votre
+            plein potentiel
+          </p>
+          <button className="hero-carousel-button2">Langues</button>
+          <button className="hero-carousel-button2">Formations</button>
+        </Carousel.Caption>
+        <Carousel.Caption className="carouselCaptionMobile2">
+          
+          <p className="hero-carousel-text2">
+           
+Donnez un coup de pouce à vos compétences grâce à nos formations expert
+          </p>
+          <button className="hero-carousel-button2">Langues</button>
+          <button className="hero-carousel-button2">Formations</button>
+        </Carousel.Caption>
+      </Carousel.Item>
+    </Carousel>
+  );
+};
 
-  <div className="hero-slide" style={{backgroundImage: "url(slide1.jpg)"}}>
-    <div className="hero-text">
-      <h1>Halifax !</h1>
-      <p>Donnez un coup de pouce à vos compétences grâce à nos formations expert</p>
-      <Link to="/AllLangue">
-        <button className="btnHero">Découvrez nos formations &#187;</button>
-      </Link>
-    </div>
-  </div>
-  </div>
-  )
-}
-
-export default Hero2
+export default Hero2;
