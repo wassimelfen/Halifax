@@ -8,8 +8,10 @@ import Allemand from './components/Allemand';
 import Certif from './components/Certif';
 import AllFormation from './components/AllFormation';
 import Contact from './components/Contact';
-
-
+import Anglais from './components/Anglais';
+import Francais from './components/Francais';
+import Management from './components/Management';
+import Informatique from './components/Informatique'
 import Details from './components/Details';
 
 function App() {
@@ -25,6 +27,12 @@ function App() {
 <Route path='/Allemand' element={<Allemand/>}></Route>
 <Route path='/certif' element={<Certif/>}></Route>
 <Route path='/contact' element={<Contact/>}></Route>
+<Route path='/anglais' element={<Anglais/>}></Route>
+<Route path='/francais' element={<Francais/>}></Route>
+<Route path='/management' element={<Management/>}></Route>
+<Route path='/informatique' element={<Informatique/>}></Route>
+
+
 
 
 <Route path="/details/:language" element={<Details />} />

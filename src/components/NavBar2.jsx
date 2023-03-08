@@ -1,6 +1,7 @@
 import Container from "react-bootstrap/Container";
 import Nav from "react-bootstrap/Nav";
 import Navbar from "react-bootstrap/Navbar";
+import NavDropdown from 'react-bootstrap/NavDropdown';
 import { useEffect } from "react";
 
 function BasicExample() {
@@ -36,18 +37,42 @@ function BasicExample() {
             <Nav.Link href="/" className="navMenu">
               Accueil
             </Nav.Link>
-            <Nav.Link href="/AllLangue" className="navMenu">
-              Langues
-            </Nav.Link>
-            <Nav.Link href="/AllFormation" className="navMenu">
-              Formations
-            </Nav.Link>
+
+            
+            <NavDropdown title="Langues" id="basic-nav-dropdown" className="navMenu">
+              <NavDropdown.Item href="anglais">Anglais</NavDropdown.Item>
+              <NavDropdown.Divider />
+
+              <NavDropdown.Item href="francais">Français</NavDropdown.Item>
+              <NavDropdown.Divider />
+
+              <NavDropdown.Item href="Allemand">Allemand</NavDropdown.Item>
+              <NavDropdown.Divider />
+
+              <NavDropdown.Item href="details/italien">Italien</NavDropdown.Item>
+              <NavDropdown.Divider />
+
+              <NavDropdown.Item href="certif">Préparation aux tests de langues</NavDropdown.Item>
+            </NavDropdown>
+
+            <NavDropdown title="Formations" id="basic-nav-dropdown" className="navMenu">
+              <NavDropdown.Item href="management">Management</NavDropdown.Item>
+              <NavDropdown.Divider />
+
+              <NavDropdown.Item href="informatique">Informatique</NavDropdown.Item>
+              
+            </NavDropdown>
+
 
             <Nav.Link href="/contact" className="navMenu">
               Contact
             </Nav.Link>
-            
+
+
+
+
           </Nav>
+
         </Navbar.Collapse>
       </Container>
     </Navbar>
