@@ -4,7 +4,7 @@ let formation = [
       language:"englishbusiness",
       title: "Anglais des affaires-Business English",
       description:
-        "Apprenez le langage des affaires internationalesavec des experts mondiaux en langue anglaise pour :<br><br>- Améliorer chaque aspect de votre anglais afin de mieux communiquer en milieu professionnel.- Utiliser des documents ciblés et mis à jour sur le monde des affaires qui vous aideront dans les domaines spécifiques que vous souhaitez améliorer <br><br>- Expérimenter des cours axés sur les affaires, vous permettant de pratiquer l’anglais à travers des jeux de rôles, des présentations et des tâches écrites <br><br>- Apprendre dans un cadre professionnel et commercial avec toute la technologie de pointe.",
+        "<strong>Apprenez le langage des affaires internationalesavec des experts mondiaux en langue anglaise pour : </strong><br><br>- Améliorer chaque aspect de votre anglais afin de mieux communiquer en milieu professionnel.- Utiliser des documents ciblés et mis à jour sur le monde des affaires qui vous aideront dans les domaines spécifiques que vous souhaitez améliorer <br><br>- Expérimenter des cours axés sur les affaires, vous permettant de pratiquer l’anglais à travers des jeux de rôles, des présentations et des tâches écrites <br><br>- Apprendre dans un cadre professionnel et commercial avec toute la technologie de pointe.<br><br><strong>Nous offrons des cours aux niveaux suivants: Pré-Intermédiaire, Intermédiaire, Post-Intermédiaire et Avancé.</strong> <br><br><p style=' color:#932242;'><strong>Format des cours:</p></strong> <strong>40 heures : </strong>Cinq heures de cours par semaine.<br><br>Maximum de 10 étudiants par classe.<br><br><strong>Niveaux: A1-A2-B1-B2-C1</strong>",
       image: "/images/english.png",
     },
   
@@ -12,7 +12,7 @@ let formation = [
       id: 1,
       language:'englishbeginner',
       title: "Anglais pour les adultes - débutants ",
-      description: "Améliorez votre anglais pour vivre votre vie pleinement .<br><br>Maîtriser l’anglais peut enrichir bien des aspects de votre vie, vous ouvrir des perspectives de carrière et élargir le cercle de vos connaissances.En tant que spécialistes de la langue anglaise, nous vous faisons bénéficier de notre position unique pour vous enseigner l’anglais. Vous apprenez à parler, comprendre, lire et écrire avec aisance, et enrichissez votre vie quotidienne.<br><br>- Que vous abordiez l’anglais pour la première fois, désiriez améliorer vos compétences ou parler anglais couramment, votre cours correspondra à vos besoins.<br><br>- Explorez notre programme de cours et de ressources mis en place par des spécialistes mondiaux de la langue anglaise.Nous enseignons l'anglais.<br><br>- Nous soutenons votre apprentissage. Nous évaluons votre maitrise de la langue.",
+      description: "<p style=' color:#932242;'><strong>Améliorez votre anglais pour vivre votre vie pleinement .</strong></p>Maîtriser l’anglais peut enrichir bien des aspects de votre vie, vous ouvrir des perspectives de carrière et élargir le cercle de vos connaissances.En tant que spécialistes de la langue anglaise, nous vous faisons bénéficier de notre position unique pour vous enseigner l’anglais. Vous apprenez à parler, comprendre, lire et écrire avec aisance, et enrichissez votre vie quotidienne.<br><br>- Que vous abordiez l’anglais pour la première fois, désiriez améliorer vos compétences ou parler anglais couramment, votre cours correspondra à vos besoins.<br><br>- Explorez notre programme de cours et de ressources mis en place par des spécialistes mondiaux de la langue anglaise.Nous enseignons l'anglais.<br><br>- Nous soutenons votre apprentissage. Nous évaluons votre maitrise de la langue.<br><br><p><strong>Nous offrons des cours aux niveaux suivants:</p>Beginner, Elementary, Pre-intermediate ,Intermediate ,<br>Upper-Intermediate,Advanced </strong><br><br><p style=' color:#932242;'><strong>Comment enseignons-nous l'anglais à HALIFAX ?</strong></p>- Nous rendons l'apprentissage amusant parce que les gens apprennent mieux s'ils aiment être en classe.<br><br>- Nous utilisons des techniques d’enseignement différentes car différents élèves ont des styles d’apprentissage différents.<br><br>- Nous demandons aux étudiants de travailler en binômes et en groupes afin de développer des compétences de communication réelles.<br><br>- Nous utilisons des livres de cours produits par des éditeurs spécialisés et du matériel créé par nos enseignants.<br><br>- Nous fournissons aux étudiants des contributions linguistiques et des compétences pratiques.<br><br>- Nous enseignons également des techniques d'étude pour vous aider à devenir des apprenants plus indépendants.<br><br>- Nous attendons de vous que vous jouiez un rôle actif dans votre apprentissage.",
       image: "/images/eng2.png",
     },
   
@@ -66,19 +66,19 @@ let formation = [
     {id:8,
     language:'compta',
     title:"Comptabilité et management",
-    description:"Durée: 10 mois ",
+    description:"<p style=' color:#932242;'><strong>Durée: 10 mois</strong></p><strong>Les objectifs:</strong><br><br>- Connaitre les principales techniques de comptabilité, fiscalité et finances des entreprises tunisiennes.<br><br>- Répondre à toutes les questions sur les fondamentaux de la finance et de la gestion, destiné aux demandeurs d'emploi mais aussi aux propriétaires de projets et entrepreneurs.",
     image :'/images/compta.png'},
                
     {id:9,
     language:'management',
     title:'Management des PME',
-    description:"Durée : 2 ans ",
+    description:"<p style=' color:#932242;'><strong>Durée : 2 ans</p></strong> <strong>Les objectifs:</strong><br><br>- Former des agents capables de piloter un projet ou l'équipe d’une PME.<br><br>- Former des agents capables de gérer une organisation privée ou publique dans la variété de ses domaines (logistique et commercial, juridique et fiscal, comptable et financier) et négocier avec les partenaires externes concernés.",
     image:'/images/PME.png'},
                 
     {id:10,
         language:'qualité',
     title:"Responsable qualité",
-    description:"Durée:6 mois",
+    description:"<p style=' color:#932242;'><strong>Durée:6 mois</strong></p>",
     image:'/images/qualité.png'},
 
     {id:11,

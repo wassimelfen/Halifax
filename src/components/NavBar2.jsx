@@ -46,6 +46,7 @@ function BasicExample() {
             <Nav.Link href="/contact" className="navMenu">
               Contact
             </Nav.Link>
+            
           </Nav>
         </Navbar.Collapse>
       </Container>
