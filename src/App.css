@@ -6,12 +6,12 @@ body {
 
 
 .forma2{
-  
   max-width: 1280px;
   margin: 0 auto;
   padding: 2rem;
   text-align: left;
 }
+
 .cartepic{
   width: 100%;
   height: 250px;
@@ -465,6 +465,10 @@ width: 300px;
 }
 
 /*ALLEMAND*/
+.card-img-top-details{
+  height: 300px;
+
+}
 .card-img-top {
   height: 200px;
 }

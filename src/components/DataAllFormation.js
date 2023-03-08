@@ -3,7 +3,7 @@ let formation = [
     {id:8,
         language:'compta',
         title:"Comptabilité et management",
-        description:"Durée: 10 mois ",
+        description:"Durée: 10 mois <br><br>Les objectifs:<br><br>- Connaitre les principales techniques de comptabilité, fiscalité et finances des entreprises tunisiennes.<br><br>- Répondre à toutes les questions sur les fondamentaux de la finance et de la gestion, destiné aux demandeurs d'emploi mais aussi aux propriétaires de projets et entrepreneurs.",
         image :'/images/compta.png'},
                    
         {id:9,
