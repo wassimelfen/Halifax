@@ -1,9 +1,9 @@
 import React from "react";
 import { Carousel } from "react-bootstrap";
-import mobileSlide1 from "../mobile10.png";
-import mobileSlide2 from "../mobile11.png";
-import desktopSlide1 from "../slide1010.png";
-import desktopSlide2 from "../slide1111.png";
+import mobileSlide1 from "../caro1.jpg";
+import mobileSlide2 from "../woman.png";
+import desktopSlide1 from "../caro3.jpg";
+import desktopSlide2 from "../caro2.jpg";
 import "../App.css";
 
 const Hero2 = () => {
@@ -21,22 +21,20 @@ const Hero2 = () => {
           alt="First desktop slide"
         />
         <Carousel.Caption className="carouselCaption">
-          <h3 className="hero-carousel-title">Halifax</h3>
           <p className="hero-carousel-text">
-            Rejoignez nos programmes de formation complets pour atteindre votre
-            plein potentiel
+            Donnez un coup de pouce à vos compétences grâce à nos formations
+            expert
           </p>
-          <button className="hero-carousel-button">Voir Nos Langues</button>
-          <button className="hero-carousel-button">Voir Nos Formations</button>
+          <button className="hero-carousel-button">Langues</button>
+          <button className="hero-carousel-button">Formations</button>
         </Carousel.Caption>
         <Carousel.Caption className="carouselCaptionMobile">
-          <h3 className="hero-carousel-title">Halifax</h3>
-          <p className="hero-carousel-text2">
+          <p className="hero-carousel-text2-0">
             Rejoignez nos programmes de formation complets pour atteindre votre
             plein potentiel
           </p>
-          <button className="hero-carousel-button2">Voir Nos Langues</button>
-          <button className="hero-carousel-button2">Voir Nos Formations</button>
+          <button className="hero-carousel-button2">Langues</button>
+          <button className="hero-carousel-button2">Formations</button>
         </Carousel.Caption>
       </Carousel.Item>
 
@@ -52,22 +50,20 @@ const Hero2 = () => {
           alt="First desktop slide"
         />
         <Carousel.Caption className="carouselCaption2">
-          <h3 className="hero-carousel-title">Halifax</h3>
-          <p className="hero-carousel-text2">
+          <p className="hero-carousel-text3">
             Rejoignez nos programmes de formation complets pour atteindre votre
             plein potentiel
           </p>
-          <button className="hero-carousel-button2">Voir Nos Langues</button>
-          <button className="hero-carousel-button2">Voir Nos Formations</button>
+          <button className="hero-carousel-button2">Langues</button>
+          <button className="hero-carousel-button2">Formations</button>
         </Carousel.Caption>
         <Carousel.Caption className="carouselCaptionMobile2">
-          <h3 className="hero-carousel-title">Halifax</h3>
           <p className="hero-carousel-text2">
-            Rejoignez nos programmes de formation complets pour atteindre votre
-            plein potentiel
+            Donnez un coup de pouce à vos compétences grâce à nos formations
+            expert
           </p>
-          <button className="hero-carousel-button2">Voir Nos Langues</button>
-          <button className="hero-carousel-button2">Voir Nos Formations</button>
+          <button className="hero-carousel-button2">Langues</button>
+          <button className="hero-carousel-button2">Formations</button>
         </Carousel.Caption>
       </Carousel.Item>
     </Carousel>

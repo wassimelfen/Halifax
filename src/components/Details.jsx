@@ -23,7 +23,7 @@ const Details = () => {
           <div className='col-md-6'>
             {filteredData.map((item) => (
               <div key={item.id} className='card'>
-                <img src={item.image} alt={item.title} className='card-img-top' />
+                <img src={item.image} alt={item.title} className='card-img-top-details' />
                 <div className='card-body'>
                   <h3 className='card-title'>{item.title}</h3>
                   <p className='card-text' dangerouslySetInnerHTML={{ __html: item.description }} />
