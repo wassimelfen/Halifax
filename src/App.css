@@ -1,43 +1,41 @@
 body {
- 
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif !important ;
 }
 /*FORMAT2*/
 
-
-.forma2{
+.forma2 {
   max-width: 1280px;
   margin: 0 auto;
   padding: 2rem;
   text-align: left;
 }
 
-.cartepic{
+.cartepic {
   width: 100%;
   height: 250px;
   object-fit: cover;
 }
-.carte{
+.carte {
   padding-top: 8px;
   padding-left: 8px;
   padding-right: 8px;
   padding-bottom: 8px;
   margin: 10px;
   width: 280px;
-  height:400px;
+  height: 400px;
   background-color: #fff;
   border: 0px solid #ccc;
   box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.2);
   text-align: center;
-  
 }
 
-.cartetitre{
+.cartetitre {
   font-size: 1.3em !important;
   font-weight: 600 !important;
   font-family: "Darby Sans Web" !important;
   color: #292929 !important;
   margin-top: 10px;
+  height: 55px;
 }
 
 .btncarte {
@@ -51,13 +49,10 @@ body {
   font-weight: bold;
   font-size: 17px;
   padding: 8px 13px;
-  text-decoration: none ;
+  text-decoration: none;
   align-items: right;
   align-self: baseline !important;
-
-  
 }
-
 
 /*NavBar*/
 .navPic {
@@ -107,7 +102,7 @@ body {
 /*LANGUE*/
 
 .cardsLangue {
-  margin:20px;
+  margin: 20px;
 
   width: 300px !important;
   height: 370px !important ;
@@ -117,14 +112,13 @@ body {
   text-align: center;
 }
 
-
 /*FORMATIONS*/
 
 .cards {
   margin: 20px;
-padding-left: -15px;
-width: 300px;
-  height: 300px ;
+  padding-left: -15px;
+  width: 300px;
+  height: 300px;
   background-color: #fff;
   border: 0px solid #ccc;
   box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.2);
@@ -281,19 +275,17 @@ width: 300px;
     margin-left: 28px !important;
     margin-top: 50px;
   }
-  
+
   .Langue {
     margin-top: 5%;
     margin-left: 28px;
     width: 85%;
-    /* background-color: #212529; */
   }
 
   .cards {
     padding: 10px;
     width: "100%";
     height: "23rem";
-  
   }
   .langCard {
     overflow: hidden;
@@ -304,7 +296,7 @@ width: 300px;
   }
   .btnSeeAll {
     margin-top: 7%;
-    margin-left: 15%;
+    /* margin-left: 15%; */
   }
 }
 .langueContainer {
@@ -465,9 +457,8 @@ width: 300px;
 }
 
 /*ALLEMAND*/
-.card-img-top-details{
+.card-img-top-details {
   height: 300px;
-
 }
 .card-img-top {
   height: 200px;
@@ -601,22 +592,18 @@ width: 300px;
 
 /* hero 2  */
 .hero-carousel {
-  /*background-color: #6a112b;*/
-  height: 600px;
+  border-bottom: 3px solid #6a112b;
+  height: 602px;
   width: 100%;
 }
 
 .hero-carousel-item {
   height: 600px;
-  
 }
 
 .hero-carousel-img {
   width: 100%;
   height: 600px;
-
-  
-  
 }
 
 .hero-carousel-title {
@@ -624,26 +611,40 @@ width: 300px;
   color: white;
   margin-bottom: 26px;
   font-family: "Darby Sans Web";
-
 }
 
 .hero-carousel-text {
   font-size: 30px;
   color: white;
- /* margin-bottom: 34px;*/
   font-family: "Darby Sans Web";
   margin-left: 50px;
- 
   font-weight: 400;
-
 }
 
 .hero-carousel-text2 {
   font-size: 30px;
+  margin-top: 310px !important;
   color: white;
-
   font-family: "Darby Sans Web";
+  margin-bottom: 15px !important;
+  background-color: #2929294f;
+}
 
+.hero-carousel-text2-0 {
+  font-size: 30px;
+  margin-top: 330px !important;
+  color: white;
+  font-family: "Darby Sans Web";
+  margin-bottom: 15px !important;
+}
+
+.hero-carousel-text3 {
+  font-size: 30px;
+  color: white;
+  font-family: "Darby Sans Web";
+  width: 500px;
+  margin-left: 150px !important;
+  margin-top: 50px;
 }
 
 .hero-carousel-button {
@@ -653,12 +654,12 @@ width: 300px;
   padding: 12px 17px;
   font-family: "Darby Sans Web";
   font-size: 20px;
-  font-weight:500;
+  font-weight: 500;
   border-radius: 30px;
   margin-right: 26px;
-  /*margin-top: 5px;*/
   cursor: pointer;
 }
+/* mobile */
 .hero-carousel-button2 {
   background-color: white;
   color: #6a112b;
@@ -669,13 +670,18 @@ width: 300px;
   font-weight: 500;
   border-radius: 30px;
   margin-left: 15px;
-  /*margin-top: 30px;*/
+  /* margin-top: 290px; */
+
   cursor: pointer;
 }
 @media (min-width: 768px) {
   .carouselCaptionMobile,
   .carouselCaptionMobile2 {
     display: none;
+  }
+  .hero-carousel-button2 {
+    margin-left: 140px !important;
+    margin-right: -130px;
   }
 }
 @media (max-width: 768px) {
@@ -695,9 +701,8 @@ width: 300px;
 
 .hero-carousel-button:hover,
 .hero-carousel-button2:hover {
-  background-color:  #6a112b;
+  background-color: #6a112b;
   color: white;
-  
 }
 
 .carouselCaption {
@@ -754,11 +759,12 @@ width: 300px;
 }
 
 .carouselCaptionMobile2 button {
-  margin-top: 48px !important;
+  /* margin-top: 48px !important; */
+  margin-top: -150px !important;
 }
 
 .carouselCaptionMobile button {
-  margin-top: 85px !important;
+  /* margin-top: 85px !important; */
 }
 
 /* button slide hover efffect */

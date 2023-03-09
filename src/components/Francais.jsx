@@ -16,7 +16,6 @@ const Francais = () => {
       </div>
 
       <div className="container">
-        
         <div className="row ">
           <div className="TitreCertif">
             <h1>
@@ -94,10 +93,6 @@ const Francais = () => {
             </div>
           </div>
         </div>
-
-
-        
-
       </div>
       <Contact2 />
       <Footer />

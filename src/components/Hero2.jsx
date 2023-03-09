@@ -21,17 +21,15 @@ const Hero2 = () => {
           alt="First desktop slide"
         />
         <Carousel.Caption className="carouselCaption">
-          
           <p className="hero-carousel-text">
-            
-Donnez un coup de pouce à vos compétences grâce à nos formations expert
+            Donnez un coup de pouce à vos compétences grâce à nos formations
+            expert
           </p>
           <button className="hero-carousel-button">Langues</button>
           <button className="hero-carousel-button">Formations</button>
         </Carousel.Caption>
         <Carousel.Caption className="carouselCaptionMobile">
-         
-          <p className="hero-carousel-text2">
+          <p className="hero-carousel-text2-0">
             Rejoignez nos programmes de formation complets pour atteindre votre
             plein potentiel
           </p>
@@ -52,8 +50,7 @@ Donnez un coup de pouce à vos compétences grâce à nos formations expert
           alt="First desktop slide"
         />
         <Carousel.Caption className="carouselCaption2">
-          
-          <p className="hero-carousel-text2">
+          <p className="hero-carousel-text3">
             Rejoignez nos programmes de formation complets pour atteindre votre
             plein potentiel
           </p>
@@ -61,10 +58,9 @@ Donnez un coup de pouce à vos compétences grâce à nos formations expert
           <button className="hero-carousel-button2">Formations</button>
         </Carousel.Caption>
         <Carousel.Caption className="carouselCaptionMobile2">
-          
           <p className="hero-carousel-text2">
-           
-Donnez un coup de pouce à vos compétences grâce à nos formations expert
+            Donnez un coup de pouce à vos compétences grâce à nos formations
+            expert
           </p>
           <button className="hero-carousel-button2">Langues</button>
           <button className="hero-carousel-button2">Formations</button>
