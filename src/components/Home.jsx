@@ -29,7 +29,7 @@ const Home = () => {
       </div>
 
       
-      <div id="gallery">
+      <div id="gallery" className="gallery">
         <Gallery />
       </div>
       <div id="contact2">
