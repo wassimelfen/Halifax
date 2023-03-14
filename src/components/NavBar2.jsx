@@ -56,7 +56,7 @@ function BasicExample() {
             </NavDropdown>
 
             <NavDropdown title="Formations" id="basic-nav-dropdown" className="navMenu">
-              <NavDropdown.Item href="management">Management</NavDropdown.Item>
+              <NavDropdown.Item href="management" className="navMenu" >Management</NavDropdown.Item>
               <NavDropdown.Divider />
 
               <NavDropdown.Item href="informatique">Informatique</NavDropdown.Item>
