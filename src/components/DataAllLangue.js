@@ -47,7 +47,7 @@ let langues = [
   {
     id: 5,
     language: "niveau",
-    title: "le français par niveau A1-A2-B1-B2-C1-C2",
+    title: "Le français par niveau A1-A2-B1-B2-C1-C2",
     description:
       "Halifax propose des cours pour apprendre le français aux candidats souhaitant approfondir leur niveau d’expression et aussi de compréhension.<br><br> Les cours favorisent l’acquisition de connaissances linguistiques (vocabulaire, orthographe, grammaire…) bien sûr mais aussi culturelles.<br><br>Comprendre et parler d’autres langues nous donnent les outils nécessaires pour créer des liens et bâtir des collectivités solides. <br><br>En prenant part à des expériences d’apprentissage linguistiques interculturelles, les apprenants verront le monde, non sous un angle unique, en fonction de leur propre langue et de leur propre culture, mais sous plusieurs angles, acquis grâce à l’étude d’une deuxième langue et culture.",
     image: "/images/fr2.png",
