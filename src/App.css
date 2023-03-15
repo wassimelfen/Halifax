@@ -1019,3 +1019,11 @@ body {
 .me-auto {
   margin-left: 17.2rem;
 }
+
+.galleryTitle {
+  font-size: 32px;
+  margin-left: 9%;
+}
+.lineML {
+  margin-left: 9%;
+}

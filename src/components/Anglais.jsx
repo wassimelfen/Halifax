@@ -114,7 +114,6 @@ const Anglais = () => {
             </div>
           </div>
         </div>
-
       </div>
       <Contact2 />
       <Footer />

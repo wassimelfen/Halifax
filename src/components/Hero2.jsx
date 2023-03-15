@@ -5,8 +5,19 @@ import mobileSlide2 from "../woman.png";
 import desktopSlide1 from "../caro3.jpg";
 import desktopSlide2 from "../caro2.jpg";
 import "../App.css";
+import { useNavigate } from "react-router-dom";
 
 const Hero2 = () => {
+  const navigate = useNavigate();
+
+  function handleLangueButtonClick() {
+    navigate("/AllLangue");
+  }
+
+  function handleFormationButtonClick() {
+    navigate("/AllFormation");
+  }
+
   return (
     <Carousel interval={3000} fade={true} className="hero-carousel">
       <Carousel.Item className="hero-carousel-item">
@@ -25,16 +36,36 @@ const Hero2 = () => {
             Donnez un coup de pouce à vos compétences grâce à nos formations
             expert
           </p>
-          <button className="hero-carousel-button">Langues</button>
-          <button className="hero-carousel-button">Formations</button>
+          <button
+            className="hero-carousel-button"
+            onClick={handleLangueButtonClick}
+          >
+            Langues
+          </button>
+          <button
+            className="hero-carousel-button"
+            onClick={handleFormationButtonClick}
+          >
+            Formations
+          </button>
         </Carousel.Caption>
         <Carousel.Caption className="carouselCaptionMobile">
           <p className="hero-carousel-text2-0">
             Rejoignez nos programmes de formation complets pour atteindre votre
             plein potentiel
           </p>
-          <button className="hero-carousel-button2">Langues</button>
-          <button className="hero-carousel-button2">Formations</button>
+          <button
+            className="hero-carousel-button"
+            onClick={handleLangueButtonClick}
+          >
+            Langues
+          </button>
+          <button
+            className="hero-carousel-button"
+            onClick={handleFormationButtonClick}
+          >
+            Formations
+          </button>
         </Carousel.Caption>
       </Carousel.Item>
 
@@ -54,16 +85,36 @@ const Hero2 = () => {
             Rejoignez nos programmes de formation complets pour atteindre votre
             plein potentiel
           </p>
-          <button className="hero-carousel-button2">Langues</button>
-          <button className="hero-carousel-button2">Formations</button>
+          <button
+            className="hero-carousel-button"
+            onClick={handleLangueButtonClick}
+          >
+            Langues
+          </button>
+          <button
+            className="hero-carousel-button"
+            onClick={handleFormationButtonClick}
+          >
+            Formations
+          </button>
         </Carousel.Caption>
         <Carousel.Caption className="carouselCaptionMobile2">
           <p className="hero-carousel-text2">
             Donnez un coup de pouce à vos compétences grâce à nos formations
             expert
           </p>
-          <button className="hero-carousel-button2">Langues</button>
-          <button className="hero-carousel-button2">Formations</button>
+          <button
+            className="hero-carousel-button"
+            onClick={handleLangueButtonClick}
+          >
+            Langues
+          </button>
+          <button
+            className="hero-carousel-button"
+            onClick={handleFormationButtonClick}
+          >
+            Formations
+          </button>
         </Carousel.Caption>
       </Carousel.Item>
     </Carousel>
