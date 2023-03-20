@@ -848,6 +848,8 @@ body {
   border-radius: 30px;
   margin-right: 26px;
   cursor: pointer;
+  margin-left: 37px;
+  margin-right: -28px !important;
 }
 /* mobile */
 .hero-carousel-button2 {

@@ -55,13 +55,13 @@ const Hero2 = () => {
             plein potentiel
           </p>
           <button
-            className="hero-carousel-button"
+            className="hero-carousel-button2"
             onClick={handleLangueButtonClick}
           >
             Langues
           </button>
           <button
-            className="hero-carousel-button"
+            className="hero-carousel-button2"
             onClick={handleFormationButtonClick}
           >
             Formations
@@ -86,13 +86,13 @@ const Hero2 = () => {
             plein potentiel
           </p>
           <button
-            className="hero-carousel-button"
+            className="hero-carousel-button2"
             onClick={handleLangueButtonClick}
           >
             Langues
           </button>
           <button
-            className="hero-carousel-button"
+            className="hero-carousel-button2"
             onClick={handleFormationButtonClick}
           >
             Formations
@@ -104,13 +104,13 @@ const Hero2 = () => {
             expert
           </p>
           <button
-            className="hero-carousel-button"
+            className="hero-carousel-button2"
             onClick={handleLangueButtonClick}
           >
             Langues
           </button>
           <button
-            className="hero-carousel-button"
+            className="hero-carousel-button2"
             onClick={handleFormationButtonClick}
           >
             Formations

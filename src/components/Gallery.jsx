@@ -25,10 +25,7 @@ import slide_image_13 from "../gal13.jpeg";
 function Gallery() {
   return (
     <div className="containergallery">
-      <div>
-        <h1 className="galleryTitle">Galerie des photos</h1>
-      </div>
-      <div className="line lineML"></div>
+      <h1 className="heading">Galerie photos</h1>
 
       <Swiper
         effect={"coverflow"}
