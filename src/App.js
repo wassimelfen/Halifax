@@ -23,7 +23,6 @@ function App() {
         <Route path="/" element={<Home />}></Route>
         <Route path="/AllLangue" element={<AllLangue />}></Route>
         <Route path="/AllFormation" element={<AllFormation />}></Route>
-        {/* <Route path="/OneFormation" element={<OneFormation />}></Route> */}
         <Route path="/OneFormation/:id" element={<OneFormation />}></Route>
         <Route path="/Allemand" element={<Allemand />}></Route>
         <Route path="/certif" element={<Certif />}></Route>

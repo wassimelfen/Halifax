@@ -11,12 +11,12 @@ const Footer = () => {
     <div className="container footersection">
       <div className="row">
         <div className="col-md-4 footerDiv">
-          <img className="footerlogo" src="/images/logo3.png" alt="logo" />
+          <img className="footerlogo" src="/images/Logo3.png" alt="logo" />
         </div>
         {/* <FontAwesomeIcon icon="fa-solid fa-location-dot" /> */}
         <div className="col-md-4 footerDiv">
           <p>Structure de formation professionnelle</p>
-          <p>Agréée par l'état tunisien sous le n°-21-288-21</p>
+          <p>Agréée par l'État tunisien sous le n°-21-288-21</p>
         </div>
 
         <div className="col-md-4 footerDiv FooterContact">
